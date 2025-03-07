@@ -1,7 +1,7 @@
 # Walking Among The Dinosaur Modpack (Forge 1.18.2)
 
 ## Introduction  
-**Walking Among The Dinosaur** is a prehistoric survival modpack that thrusts you into a world teeming with ancient life. You’ll experience an *epic journey of survival in a wild and untamed world* – and here’s the twist: **you won’t be alone**. *You’ll be walking among the dinosaurs!* ([Man vs Wild (Walking among the dinosaurs) - Modpack - Modpack Index](https://www.modpackindex.com/modpack/75154/man-vs-wild-walking-among-the-dinosaurs#:~:text=Welcome%20to%20a%20prehistoric%20adventure,be%20walking%20among%20the%20dinosaurs)) This modpack emphasizes realistic survival mechanics and immersive dinosaur interactions, creating a challenging and atmospheric adventure.
+**Walking Among The Dinosaur** is a prehistoric survival modpack that thrusts you into a world teeming with ancient life. You’ll experience an *epic journey of survival in a wild and untamed world* – and here’s the twist: **you won’t be alone**. *You’ll be walking among the dinosaurs!*. This modpack emphasizes realistic survival mechanics and immersive dinosaur interactions, creating a challenging and atmospheric adventure.
 
 **Key Features:**  
 - **Prehistoric World:** Explore a land where dinosaurs and other ancient creatures roam free. There are **no modern villages or typical Minecraft structures** – you are truly in an untamed prehistoric era (even standard mobs and villagers are absent to preserve the wild atmosphere ([Man vs Wild (Walking among the dinosaurs) - Minecraft Modpacks - CurseForge](https://www.curseforge.com/minecraft/modpacks/man-vs-wild-walking-among-the-dinosaurs#:~:text=,it%20smoothly%20with%20Sildur%20Shader))).  
