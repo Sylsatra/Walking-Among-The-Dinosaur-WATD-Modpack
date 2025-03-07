@@ -1,0 +1,8 @@
+{
+    "input": {
+        "item": "fossil:meat_coelacanth"
+    },
+    "result": {
+        "id": "fossil:coelacanth"
+    }
+}

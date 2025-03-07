@@ -1,0 +1,19 @@
+{
+  "parent": "combat:infernal_weaponry",
+  "display": {
+    "icon": {
+      "item": "spartanweaponry:wooden_halberd"
+    },
+    "title": "Pummeling Power",
+    "description": "Heavy weapons crush foes and unlock strength with mastery.",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

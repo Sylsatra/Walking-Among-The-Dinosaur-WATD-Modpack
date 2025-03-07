@@ -1,0 +1,1 @@
+craftingTable.addShaped("gun_powder",<item:minecraft:gunpowder>, [[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>],[<item:minecraft:air>,<item:minecraft:bone_meal>,<item:minecraft:air>],[<item:minecraft:charcoal>,<item:minecraft:glowstone_dust>,<item:minecraft:charcoal>]]);

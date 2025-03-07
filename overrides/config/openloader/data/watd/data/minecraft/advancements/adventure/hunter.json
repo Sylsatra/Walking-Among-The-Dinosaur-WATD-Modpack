@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:adventure/spyglass_at_dragon",
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_sword"
+    },
+    "title": {
+      "text": "The Bounty Hunter",
+      "color": "#FFD700"
+    },
+    "description": {
+      "text": "Kill The Albino Quetzalcoatlus!",
+      "color": "#FF4500"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "kill_creeperfear_quetzalcoatlus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "fossil:quetzalcoatlus",
+          "nbt": "{ForgeData:{creeperfearInRange:\"yes\"}}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill_creeperfear_quetzalcoatlus"
+    ]
+  ]
+}

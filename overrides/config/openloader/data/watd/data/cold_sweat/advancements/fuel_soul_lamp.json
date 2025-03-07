@@ -1,0 +1,28 @@
+{
+  "parent": "cold_sweat:get_soul_lamp",
+  "display": {
+    "icon": {
+      "item": "cold_sweat:soulspring_lamp"
+    },
+    "title": {
+      "translate": "advancements.cold_sweat.soul_lamp_fuel.title"
+    },
+    "description": {
+      "translate": "advancements.cold_sweat.soul_lamp_fuel.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

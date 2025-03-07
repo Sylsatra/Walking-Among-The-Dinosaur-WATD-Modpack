@@ -1,0 +1,125 @@
+#How often ferns try to grow. Higher number = less growth
+#Range: 1 ~ 1000000
+fernTickRate = 20
+
+["Generation Config"]
+	#True if Hell Ships are to generate naturally
+	generateHellShips = false
+	#True if Desert Academies are to generate naturally
+	generateAcademy = false
+	#True if Aztec Temples are to generate naturally
+	generateTemple = false
+	#True if Fossil Ores are to generate naturally
+	generateFossils = true
+	#True if Permafrost Ore is to generate naturally
+	generatePermafrost = false
+	#True if Volcanic Rock is to generate naturally
+	generateVolcanicRock = true
+	#True if Aztec Weapon Shops are to generate naturally
+	generateAztecWeaponShops = false
+	#True if Moai Statues are to generate naturally
+	generateMoai = false
+	#True if Volcano Biomes are to generate naturally
+	generateVolcanoBiome = true
+	#Rarity of Fossil ore. Higher number = more tries per chunk
+	#Range: 1 ~ 500
+	fossilOreRarity = 13
+	#Rarity of Permafrost. Higher number = more tries per chunk
+	#Range: 1 ~ 500
+	permafrostRarity = 7
+	#Maximum number of chunks between Ship Structures
+	#Range: 1 ~ 100000000
+	hellShipSpacing = 24
+	#Minimum number of chunks between Ship Structures
+	#Range: 1 ~ 100000000
+	hellShipSeparation = 5
+	#Rarity of Moai Statues. Higher number = more rare
+	#Range: 1 ~ 100000000
+	moaiRarity = 400
+	#Volcano Biome Weight. Higher number = more common
+	#Range: 1 ~ 10000
+	volcanoBiomeRarity = 7
+
+["Spawn Config"]
+	#True if Tar Slimes are to spawn naturally in tar pits
+	spawnTarSlimes = false
+	#True if Nautilus are to spawn naturally in oceans
+	spawnNautilus = false
+	#True if Coelacanths are to spawn naturally in oceans
+	spawnCoelacanth = false
+	#True if Alligator Gars are to spawn naturally in swamps
+	spawnAlligatorGar = false
+	#True if Sturgeons are to spawn naturally in rivers
+	spawnSturgeon = false
+	#Tar Slime Spawn Rarity. Higher number = more rare
+	#Range: 1 ~ 100000000
+	tarSlimesSpawnRate = 75
+	#Alligator Gar Spawn Weight. Higher number = more common
+	#Range: 0 ~ 100000000
+	alligatorGarSpawnWeight = 4
+	#Coelacanth Spawn Weight. Higher number = more common
+	#Range: 0 ~ 100000000
+	coelacanthSpawnWeight = 3
+	#Nautilus Spawn Weight. Higher number = more common
+	#Range: 0 ~ 100000000
+	nautilusSpawnWeight = 2
+	#Sturgeon Spawn Weight. Higher number = more common
+	#Range: 0 ~ 100000000
+	sturgeonSpawnWeight = 5
+	#True if fish spawned via fish egg item should never despawn
+	fishArePersistent = true
+
+["Mob Config"]
+	#True if Dinosaurs can be healed by hand feeding it food
+	healingDinos = true
+	#True if Dinosaurs have hunger
+	enableHunger = true
+	#True if Dinosaurs can die of hunger
+	enableStarvation = true
+	#True if Dinosaurs should breed
+	breedingDinos = true
+	#True if Dinosaurs should create item eggs instead of entities
+	eggsLikeChickens = false
+	#True if Whips can be used to tame some dinosaurs
+	whipToTameDino = true
+	#Maximum height that flying creatures should be able to fly to
+	#Range: 1 ~ 512
+	flyingTargetMaxHeight = 512
+	#How long mammal pregnancies last, in ticks
+	#Range: 1 ~ 1000000000
+	pregnancyDuration = 1000000
+	#True if certain Dinosaurs can break blocks weaker than the set hardness
+	dinosBreakBlocks = true
+	#Minimum hardness that a block needs in order not to break. The default is iron(5). A value of 0.4 would be enough to break leaves and glass but not dirt
+	#Range: 0.0 ~ 100.0
+	blockBreakHardness = 5.0
+	#True if herbivores can eat plant blocks
+	dinosEatBlocks = true
+	#True if Dinosaurs can eat non-vanilla mobs
+	dinosEatModdedMobs = true
+	#True if vanilla animals should run away from dangerous Dinosaurs
+	animalsFearDinos = true
+	#True if Anu should be able to place blocks
+	anuBlockPlacing = false
+	#True if the Anubite should be able to spawn again after some time
+	anubiteHasCooldown = false
+	#How long it takes for the Anubite to respawn, in ticks
+	#Range: 1200 ~ 1000000000
+	anubiteCooldown = 72000
+
+["Machine Config"]
+	#Percentage chance that the Culture Vat will break
+	#Range: 0 ~ 100
+	cultureVatFailChance = 10
+	#True if machines require Energy to operate
+	machinesRequireEnergy = false
+	#Max stored Energy machines can have
+	#Range: 1 ~ 1000000
+	machineMaxEnergy = 1000
+	#Max Energy machines can transfer per tick
+	#Range: 1 ~ 1000000
+	machineTransferRate = 10
+	#How much Energy machines consume per tick
+	#Range: 1 ~ 1000000
+	machineEnergyUsage = 1
+

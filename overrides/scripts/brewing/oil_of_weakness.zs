@@ -1,0 +1,1 @@
+brewing.addRecipe(<item:spartanweaponry:weapon_oil>,<item:spartanweaponry:weapon_oil>,<item:dynamictreesplus:brown_mushroom_seed>);

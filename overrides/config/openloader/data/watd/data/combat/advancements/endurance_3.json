@@ -1,0 +1,26 @@
+{
+  "parent": "combat:endurance_2",
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_leggings"
+    },
+    "title": "Endurance III: Steel Resolve",
+    "description": "2500 damage endured—each blow tempers your core.",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "endurance_3": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "feathers:endurance": {
+            "amplifier": 2
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+craftingTable.addShaped("skull_block",<item:fossil:skull>, [[<item:minecraft:bone>,<item:minecraft:bone>,<item:minecraft:bone>],[<item:minecraft:bone>,<item:minecraft:bone>,<item:minecraft:bone>],[<item:minecraft:bone>,<item:minecraft:bone>,<item:minecraft:bone>]]);

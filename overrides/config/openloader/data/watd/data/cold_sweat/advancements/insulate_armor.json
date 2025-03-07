@@ -1,0 +1,28 @@
+{
+  "parent": "cold_sweat:root",
+  "display": {
+    "icon": {
+      "item": "minecraft:leather"
+    },
+    "title": {
+      "translate": "advancements.cold_sweat.insulate_armor.title"
+    },
+    "description": {
+      "translate": "advancements.cold_sweat.insulate_armor.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "illegalPathSupportMode": "Entity",
+  "enableCustomTextures": true,
+  "enableCustomBlockEntities": true,
+  "textureUpdateFrequency_V2": "Fast",
+  "enableEmissiveTextures": true,
+  "enableEnchantedTextures": true,
+  "enableEmissiveBlockEntities": true,
+  "emissiveRenderMode": "DULL",
+  "alwaysCheckVanillaEmissiveSuffix": true,
+  "enableArmorAndTrims": true,
+  "skinFeaturesEnabled": true,
+  "skinTransparencyMode": "ETF_SKINS_ONLY",
+  "skinFeaturesEnableTransparency": true,
+  "skinFeaturesEnableFullTransparency": false,
+  "tryETFTransparencyForAllSkins": false,
+  "enableEnemyTeamPlayersSkinFeatures": true,
+  "enableBlinking": true,
+  "blinkFrequency": 150,
+  "blinkLength": 1,
+  "advanced_IncreaseCacheSizeModifier": 1.0,
+  "debugLoggingMode": "Log",
+  "logTextureDataInitialization": true,
+  "hideConfigButton": false,
+  "disableVanillaDirectoryVariantTextures": false,
+  "use3DSkinLayerPatch": true,
+  "enableFullBodyWardenTextures": true,
+  "entityEmissiveOverrides": {
+    "entity.fossil.tyrannosaurus": true,
+    "entity.fossil.quetzalcoatlus": true
+  },
+  "propertiesDisabled": [],
+  "propertyInvertUpdatingOverrides": [],
+  "entityRandomOverrides": {
+    "entity.fossil.tyrannosaurus": true,
+    "entity.fossil.quetzalcoatlus": true
+  },
+  "entityEmissiveBrightOverrides": {},
+  "entityRenderLayerOverrides": {},
+  "entityLightOverrides": {}
+}

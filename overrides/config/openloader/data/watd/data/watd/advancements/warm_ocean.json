@@ -1,0 +1,48 @@
+{
+  "parent": "watd:river_monster_the_beginning",
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_boots",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "text": "A good fishing spot"
+    },
+    "description": {
+      "text": "Find a warm ocean to fish!"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "minecraft:warm_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:warm_ocean"
+        }
+      }
+    },
+    "minecraft:lukewarm_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:lukewarm_ocean"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:warm_ocean"
+    ,
+    
+      "minecraft:lukewarm_ocean"
+    ]
+  ]
+}

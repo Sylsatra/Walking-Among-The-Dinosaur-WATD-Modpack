@@ -1,0 +1,41 @@
+{
+    "parent": "watd:warm_ocean",
+    "display": {
+        "icon": {
+            "item": "kubejs:ichthyosaurus"
+        },
+        "title": {
+            "text": "Reeled in an Ichthyosaurus",
+            "color": "#1E90FF"  
+        },
+        "description": {
+            "text": "Prehistoric swimmer glided through warm tides.",
+            "color": "#00CED1"  
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+    },
+    "criteria": {
+        "ichthyosaurus": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "fossil:meat_ichthyosaurus"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "ichthyosaurus"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    }
+}

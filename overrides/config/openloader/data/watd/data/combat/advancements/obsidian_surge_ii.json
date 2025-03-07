@@ -1,0 +1,26 @@
+{
+  "parent": "combat:obsidian_surge_i",
+  "display": {
+    "icon": {
+      "item": "minecraft:obsidian"
+    },
+    "title": "Obsidian Surge II",
+    "description": "With 100 obsidians, your stamina grows beyond mere sparks.",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "haste2": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:haste": {
+            "amplifier": 1
+          }
+        }
+      }
+    }
+  }
+}

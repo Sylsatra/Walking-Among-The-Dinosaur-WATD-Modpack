@@ -1,0 +1,1 @@
+craftingTable.addShaped("grease_sturgeon",<item:spartanweaponry:grease_ball>, [[<item:minecraft:air>,<item:fossil:meat_sturgeon>,<item:minecraft:air>],[<item:fossil:meat_sturgeon>,<item:minecraft:slime_ball>,<item:fossil:meat_sturgeon>],[<item:minecraft:air>,<item:fossil:meat_sturgeon>,<item:minecraft:air>]]);

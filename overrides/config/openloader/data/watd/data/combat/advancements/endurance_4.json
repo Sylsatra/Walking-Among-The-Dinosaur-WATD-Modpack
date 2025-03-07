@@ -1,0 +1,26 @@
+{
+  "parent": "combat:endurance_3",
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_boots"
+    },
+    "title": "Endurance IV: Unbreakable",
+    "description": "5000 damage borne—your body nears perfection.",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "endurance_4": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "feathers:endurance": {
+            "amplifier": 3
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+    "parent": "watd:cave",
+    "display": {
+        "icon": {
+            "item": "kubejs:diplocaulus"
+        },
+        "title": {"text": "Reeled in a Diplocaulus", "color": "#4CAF50"},
+        "description": {"text": "Boomerang-headed inhabitants of dripping, lush depths.", "color": "#00AEEF"},
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "diplocaulus": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "fossil:meat_diplocaulus"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "diplocaulus"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    }
+}

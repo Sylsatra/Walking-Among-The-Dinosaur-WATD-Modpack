@@ -1,0 +1,20 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "cold_sweat:item/goat_fur_parka"
+  },
+    "overrides": [
+    {
+      "predicate": { "custom_model_data": 1 },
+      "model": "cold_sweat:item/elas_fur_parka"
+    },
+    {
+      "predicate": { "custom_model_data": 2000 },
+      "model": "cold_sweat:item/mammoth_fur_parka"
+    },
+    {
+      "predicate": { "custom_model_data": 3000 },
+      "model": "cold_sweat:item/theri_fur_parka"
+    }
+  ]
+}

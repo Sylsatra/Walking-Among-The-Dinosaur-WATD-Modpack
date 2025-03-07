@@ -1,0 +1,1 @@
+craftingTable.addShaped("lichen_glowstone",<item:minecraft:glowstone>, [[<item:minecraft:glow_lichen>,<item:minecraft:gold_nugget>,<item:minecraft:glow_lichen>],[<item:minecraft:gold_nugget>,<item:minecraft:cobblestone>,<item:minecraft:gold_nugget>],[<item:minecraft:glow_lichen>,<item:minecraft:gold_nugget>,<item:minecraft:glow_lichen>]]);

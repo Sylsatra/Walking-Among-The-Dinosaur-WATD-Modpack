@@ -1,0 +1,26 @@
+{
+  "parent": "combat:obsidian_surge_ii",
+  "display": {
+    "icon": {
+      "item": "minecraft:obsidian"
+    },
+    "title": "Obsidian Surge III",
+    "description": "Mining 250 obsidians unleashes a robust physique.",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "haste3": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:haste": {
+            "amplifier": 2
+          }
+        }
+      }
+    }
+  }
+}

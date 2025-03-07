@@ -1,0 +1,19 @@
+{
+  "type": "min",
+  "argument1": {
+    "type": "minecraft:mul",
+    "argument1": 4,
+    "argument2": {
+      "type": "minecraft:quarter_negative",
+      "argument": {
+        "type": "minecraft:mul",
+        "argument1": "minecraft:overworld/noise_router/depth",
+        "argument2": {
+          "type": "minecraft:cache_2d",
+          "argument": "minecraft:overworld/factor"
+        }
+      }
+    }
+  },
+  "argument2": "terralith:subtract_terrain_sum"
+}

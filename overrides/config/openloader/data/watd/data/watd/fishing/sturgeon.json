@@ -1,0 +1,8 @@
+{
+    "input": {
+        "item": "fossil:meat_sturgeon"
+    },
+    "result": {
+        "id": "fossil:sturgeon"
+    }
+}

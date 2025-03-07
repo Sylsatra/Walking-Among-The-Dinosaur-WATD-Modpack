@@ -1,0 +1,161 @@
+{
+    "parent": "watd:monster_meat_mosasaurus",
+    "display": {
+        "icon": {
+            "item": "kubejs:jeremy_wade_icon"
+        },
+        "title": {"text": "Jeremy Wade's Successor", "color": "#00aaff"},
+        "description": {"text": "You have become Jeremy Wade's successor by facing every river monster!", "color": "#ffaa00"},
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scotoharpes": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": ["fossil:meat_scotoharpes"]
+                }
+            }
+        },
+        "lonchodomas": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": ["fossil:meat_lonchodomas"]
+                }
+            }
+        },
+        "dicranurus": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": ["fossil:meat_dicranurus"]
+                }
+            }
+        },
+        "diplocaulus": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": ["fossil:meat_diplocaulus"]
+                }
+            }
+        },
+        "henodus": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": ["fossil:meat_henodus"]
+                }
+            }
+        },
+        "tiktaalik": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": ["fossil:meat_tiktaalik"]
+                }
+            }
+        },
+        "alligator_gar": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": ["fossil:meat_alligator_gar"]
+                }
+            }
+        },
+        "walliserops": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": ["fossil:meat_walliserops"]
+                }
+            }
+        },
+        "aquilolamna": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": ["fossil:meat_aquilolamna"]
+                }
+            }
+        },
+        "coelacanth": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": ["fossil:meat_coelacanth"]
+                }
+            }
+        },
+        "ichthyosaurus": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": ["fossil:meat_ichthyosaurus"]
+                }
+            }
+        },
+        "plesiosaurus": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": ["fossil:meat_plesiosaurus"]
+                }
+            }
+        },
+        "megalograptus": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": ["fossil:meat_megalograptus"]
+                }
+            }
+        },
+        "nautilus": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": ["fossil:meat_nautilus"]
+                }
+            }
+        },
+        "megalodon": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": ["fossil:meat_megalodon"]
+                }
+            }
+        },
+        "mosasaurus": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": ["fossil:meat_mosasaurus"]
+                }
+            }
+        },
+        "sturgeon": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": ["fossil:meat_sturgeon"]
+                }
+            }
+        }
+    },
+    "requirements": [
+        ["scotoharpes"], ["lonchodomas"], ["dicranurus"], ["diplocaulus"], ["henodus"],
+        ["tiktaalik"], ["alligator_gar"], ["walliserops"], ["aquilolamna"], ["coelacanth"],
+        ["ichthyosaurus"], ["plesiosaurus"], ["megalograptus"], ["nautilus"], ["megalodon"],
+        ["mosasaurus"], ["sturgeon"]
+    ],
+    "rewards": {
+        "function": "watd:give_jeremy_successor"
+    }
+}

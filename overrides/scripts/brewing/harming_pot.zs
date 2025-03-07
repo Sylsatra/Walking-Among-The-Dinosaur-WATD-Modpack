@@ -1,0 +1,1 @@
+brewing.addRecipe(<item:spartanweaponry:weapon_oil>,<item:spartanweaponry:weapon_oil>,<item:fossil:bone_skull_tyrannosaurus>);

@@ -1,0 +1,51 @@
+{
+  "parent": "minecraft:adventure/spyglass_at_ghast",
+  "display": {
+    "icon": {
+      "item": "minecraft:spyglass"
+    },
+    "title": {
+      "translate": "Ahh shiny",
+      "color": "#FFD700"
+    },
+    "description": {
+      "text": "Spotted an Albino Tyrranosaurus with a spyglass",
+      "color": "#EDEDED"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "spyglass_at_creeperfear_tyranno": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "player": {
+                "looking_at": {
+                  "type": "fossil:tyrannosaurus",
+                  "nbt": "{ForgeData:{creeperfearInRange:\"yes\"}}"
+                }
+              }
+            },
+            "entity": "this"
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "spyglass_at_creeperfear_tyranno"
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+    "parent": "watd:warm_ocean",
+    "display": {
+        "icon": {
+            "item": "kubejs:walliserops"
+        },
+        "title": {
+            "text": "Reeled in a Walliserops",
+            "color": "#00aaff"
+        },
+        "description": {
+            "text": "The ancient titan roams warm, mysterious depths.",
+            "color": "#ffcc00"
+        },
+        "frame": "goal",
+        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "walliserops": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "fossil:meat_walliserops"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "walliserops"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    }
+}

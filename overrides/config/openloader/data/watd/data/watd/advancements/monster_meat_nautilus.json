@@ -1,0 +1,40 @@
+{
+    "parent": "watd:cold_ocean",
+    "display": {
+        "icon": {
+            "item": "kubejs:nautilus"
+        },
+        "title": {
+            "text": "Reeled in a Nautilus",
+            "color": "#1E90FF"
+        },
+        "description": {
+            "text": "Timeless wanderer of deep, icy seas.",
+            "color": "#87CEEB"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "nautilus": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "fossil:meat_nautilus"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "nautilus"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    }
+}

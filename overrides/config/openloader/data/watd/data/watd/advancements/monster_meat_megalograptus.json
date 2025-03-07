@@ -1,0 +1,40 @@
+{
+    "parent": "watd:cold_ocean",
+    "display": {
+        "icon": {
+            "item": "kubejs:megalograptus"
+        },
+        "title": {
+            "text": "Reeled in a Megalograptus",
+            "color": "#66ccff"
+        },
+        "description": {
+            "text": "Predator from the ancient, frozen abyss.",
+            "color": "#005566"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "megalograptus": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "fossil:meat_megalograptus"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "megalograptus"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    }
+}

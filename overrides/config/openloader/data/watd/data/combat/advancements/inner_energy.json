@@ -1,0 +1,26 @@
+{
+  "parent": "combat:hidden_ability",
+  "display": {
+    "icon": {
+      "item": "spartanweaponry:large_arrow_quiver"
+    },
+    "title": "Inner Energy",
+    "description": "Every step awakens your power, boosting your energy recovery.",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "energized": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "feathers:energized": {
+            "min_duration": 1
+          }
+        }
+      }
+    }
+  }
+}

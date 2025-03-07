@@ -1,0 +1,6 @@
+
+[Container]
+	#Defineds drinks will be influenced by purity
+	#Format: ["examplemod:example_item_1", "examplemod:example_item_2"]
+	Containers = ["create:builders_tea"]
+

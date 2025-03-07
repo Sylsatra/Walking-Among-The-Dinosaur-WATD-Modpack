@@ -1,0 +1,26 @@
+{
+  "parent": "combat:hammer_of_titans",
+  "display": {
+    "icon": {
+      "item": "spartanweaponry:netherite_halberd"
+    },
+    "title": "Titan's Wrath",
+    "description": "1000 furious strikes unleash an unstoppable force.",
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "strength3": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:strength": {
+            "amplifier": 2
+          }
+        }
+      }
+    }
+  }
+}

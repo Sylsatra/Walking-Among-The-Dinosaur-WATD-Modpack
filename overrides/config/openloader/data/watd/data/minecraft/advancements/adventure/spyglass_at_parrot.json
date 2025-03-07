@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:adventure/spyglass_at_ghast",
+  "display": {
+    "icon": {
+      "item": "minecraft:spyglass"
+    },
+    "title": {
+      "translate": "Is that Leviathan?",
+      "color": "#1E90FF"
+    },
+    "description": {
+      "translate": "Spot an Albino Mosasaurus with a spyglass",
+      "color": "#ADD8E6"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "icon_glow_color": "#87CEEB",
+    "frame_color": "#FFD700"
+  },
+  "criteria": {
+    "spyglass_at_mosasaurus": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "player": {
+                "looking_at": {
+                  "type": "fossil:mosasaurus",
+                  "nbt": "{ForgeData:{creeperfearInRange:\"yes\"}}"
+                }
+              }
+            },
+            "entity": "this"
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "spyglass_at_mosasaurus"
+    ]
+  ]
+}

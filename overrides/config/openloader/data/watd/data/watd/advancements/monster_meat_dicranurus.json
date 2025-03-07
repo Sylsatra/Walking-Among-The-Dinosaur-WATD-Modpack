@@ -1,0 +1,40 @@
+{
+    "parent": "watd:cave",
+    "display": {
+        "icon": {
+            "item": "kubejs:dicranurus"
+        },
+        "title": {
+            "text": "Reeled in a Dicranurus",
+            "color": "#FFD700"
+        },
+        "description": {
+            "text": "Ancient lurker of dripping, lush depths.",
+            "color": "#228B22"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "dicranurus": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "fossil:meat_dicranurus"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "dicranurus"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    }
+}

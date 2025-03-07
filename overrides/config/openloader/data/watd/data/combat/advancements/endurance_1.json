@@ -1,0 +1,26 @@
+{
+  "parent": "combat:ultra_instinct",
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_helmet"
+    },
+    "title": "Endurance I: The Awakening",
+    "description": "500 damage endured—your resilience stirs.",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "endurance_1": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "feathers:endurance": {
+            "amplifier": 0
+          }
+        }
+      }
+    }
+  }
+}

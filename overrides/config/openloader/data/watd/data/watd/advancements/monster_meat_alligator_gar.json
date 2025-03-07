@@ -1,0 +1,40 @@
+{
+    "parent": "watd:river",
+    "display": {
+        "icon": {
+            "item": "kubejs:alligator_gar"
+        },
+        "title": {
+            "text": "Reeled in an Alligator Gar",
+            "color": "#2F7F3F"
+        },
+        "description": {
+            "text": "Fierce river predator, rarely encountered.",
+            "color": "#4C4C4C"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "alligator_gar": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "fossil:meat_alligator_gar"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "alligator_gar"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    }
+}

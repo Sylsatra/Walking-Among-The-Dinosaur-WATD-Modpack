@@ -1,0 +1,40 @@
+{
+    "parent": "watd:river",
+    "display": {
+        "icon": {
+            "item": "kubejs:tiktaalik"
+        },
+        "title": {
+            "text": "Reeled in a Tiktaalik",
+            "color": "#1F8B4C"
+        },
+        "description": {
+            "text": "Prehistoric relic bridging water and land.",
+            "color": "#D4A017"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "tiktaalik": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "fossil:meat_tiktaalik"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "tiktaalik"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    }
+}

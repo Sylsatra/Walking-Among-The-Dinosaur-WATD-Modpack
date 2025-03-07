@@ -1,0 +1,37 @@
+{
+  "parent": "fossil:fossil/root",
+  "display": {
+    "icon": {
+      "item": "fossil:frozen_meat"
+    },
+    "title": {
+      "translate": "advancements.fossil.frozen_meat.title"
+    },
+    "description": {
+      "translate": "advancements.fossil.frozen_meat.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "frozen_meat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fossil:frozen_meat"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "frozen_meat"
+    ]
+  ]
+}

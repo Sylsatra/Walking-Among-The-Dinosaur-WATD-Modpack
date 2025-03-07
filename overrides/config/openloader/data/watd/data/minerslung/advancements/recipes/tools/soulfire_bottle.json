@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minerslung:soulfire_bottle"
+    ]
+  },
+  "criteria": {
+    "namesarehard": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether"
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minerslung:soulfire_bottle"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "namesarehard",
+      "has_the_recipe"
+    ]
+  ]
+}

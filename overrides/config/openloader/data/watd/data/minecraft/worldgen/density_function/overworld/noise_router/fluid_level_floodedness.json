@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:max",
+  "argument1": "minecraft:overworld/aquifer_special",
+  "argument2": {
+    "type": "minecraft:max",
+    "argument1": "terralith:special/force_caldera",
+    "argument2": "minecraft:overworld/aquifer"
+  }
+}

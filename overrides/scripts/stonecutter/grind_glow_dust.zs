@@ -1,0 +1,1 @@
+stoneCutter.addRecipe("grind_glow_dust",<item:minecraft:glowstone_dust>,<item:minecraft:glowstone>);

@@ -1,0 +1,11 @@
+{
+    "input": {
+        "item": "fossil:meat_mosasaurus"
+    },
+    "result": {
+        "id": "fossil:mosasaurus",
+        "nbt": {
+            "Age": 13000
+        }
+    }
+}

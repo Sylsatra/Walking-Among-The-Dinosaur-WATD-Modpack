@@ -1,0 +1,17 @@
+
+["Feathers' Config"]
+	#Whether the feathers flash white when regenerating.
+	"Regeneration Effect" = true
+	#Whether a sound is played when feathers freeze in cold biomes
+	"Cold Sound Effect" = true
+	#Whether armor weights are displayed when hovering over an item
+	"Display Weights in Inventory" = true
+	#Whether armor weights are displayed as icons (true) or text (false) when hovering over an item
+	"Display Weight As Icons" = false
+	#Whether armor weights are effected by icons on the right side of the HUD.
+	"Weight Effected by Right Side Icons" = false
+	#How far left or right you want the feathers to be
+	"HUD X Offset" = 0
+	#How far up or down you want the feathers to be. TIP: use this for compatibility with mods that add other bars such as thirst
+	"HUD Y Offset" = 0
+

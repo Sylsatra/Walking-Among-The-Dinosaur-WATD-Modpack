@@ -1,0 +1,8 @@
+{
+    "input": {
+        "item": "fossil:meat_diplocaulus"
+    },
+    "result": {
+        "id": "fossil:diplocaulus"
+    }
+}

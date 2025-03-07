@@ -1,0 +1,5 @@
+
+["Client Options"]
+	#Render additional bonfire embers and smoke - Default true
+	showBonfireParticles = true
+

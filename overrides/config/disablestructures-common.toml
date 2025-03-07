@@ -1,0 +1,5 @@
+#If enabled will output to the debug.log when a structure is disabled.
+"Enable Debug" = false
+#This list defines the structures that should be disabled from generating.
+"Disabled Structures" = ["minecraft:bastion_remnant", "minecraft:buried_treasure", "minecraft:desert_pyramid", "minecraft:fortress", "minecraft:igloo", "minecraft:jungle_pyramid", "minecraft:mansion", "minecraft:mineshaft", "minecraft:monument", "minecraft:nether_fossil", "minecraft:ocean_ruin", "minecraft:pillager_outpost", "minecraft:ruined_portal", "minecraft:shipwreck", "minecraft:stronghold", "minecraft:swamp_hut", "minecraft:village", "fossil:anu_castle", "fossil:hell_boat", "fossil:treasure_room"]
+

@@ -1,0 +1,1 @@
+campfire.addRecipe("plant_string",<item:minecraft:string>,<item:htm:plant_string>,1, 5);

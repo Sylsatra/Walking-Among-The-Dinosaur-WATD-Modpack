@@ -1,0 +1,40 @@
+{
+    "parent": "watd:river",
+    "display": {
+        "icon": {
+            "item": "kubejs:henodus"
+        },
+        "title": {
+            "text": "Reeled in a Henodus",
+            "color": "#FFD700"
+        },
+        "description": {
+            "text": "Elusive wanderer of warm river currents.",
+            "color": "#00CED1"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "henodus": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "fossil:meat_henodus"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "henodus"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    }
+}

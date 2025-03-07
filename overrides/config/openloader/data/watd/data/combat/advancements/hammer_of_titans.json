@@ -1,0 +1,26 @@
+{
+  "parent": "combat:trial_of_the_iron_fist",
+  "display": {
+    "icon": {
+      "item": "spartanweaponry:diamond_halberd"
+    },
+    "title": "Hammer of Titans",
+    "description": "500 grueling strikes forge your might into colossal power.",
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "strength2": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:strength": {
+            "amplifier": 1
+          }
+        }
+      }
+    }
+  }
+}

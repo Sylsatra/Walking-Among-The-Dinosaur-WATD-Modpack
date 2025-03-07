@@ -1,0 +1,41 @@
+{
+    "parent": "watd:cave",
+    "display": {
+        "icon": {
+            "item": "kubejs:lonchodomas"
+        },
+        "title": {
+            "text": "Reeled in an Lonchodomas",
+            "color": "#00aa00"
+        },
+        "description": {
+            "text": "Stealthy denizen of dripping, lush caves.",
+            "color": "#55ffff"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+    },
+    "criteria": {
+        "lonchodomas": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "fossil:meat_lonchodomas"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "lonchodomas"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    }
+}

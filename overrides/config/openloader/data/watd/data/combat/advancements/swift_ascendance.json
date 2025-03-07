@@ -1,0 +1,26 @@
+{
+  "parent": "combat:swift_initiation",
+  "display": {
+    "icon": {
+      "item": "spartanweaponry:diamond_javelin"
+    },
+    "title": "Swift Ascendance",
+    "description": "Haste II: 500 strikes propel you into greater speed.",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "haste2": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:haste": {
+            "amplifier": 1
+          }
+        }
+      }
+    }
+  }
+}

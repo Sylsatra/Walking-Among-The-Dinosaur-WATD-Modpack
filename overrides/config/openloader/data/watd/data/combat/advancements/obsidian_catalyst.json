@@ -1,0 +1,24 @@
+{
+  "parent": "combat:hidden_ability",
+  "display": {
+    "icon": {
+      "item": "minecraft:obsidian"
+    },
+    "title": "Obsidian Catalyst",
+    "description": "Mine the dark stone to increase one's stamina.",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "gain_haste": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:haste": {}
+        }
+      }
+    }
+  }
+}

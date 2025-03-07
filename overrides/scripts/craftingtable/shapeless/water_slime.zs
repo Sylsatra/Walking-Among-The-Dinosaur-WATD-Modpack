@@ -1,0 +1,1 @@
+craftingTable.addShapeless("water_slime",<item:minecraft:slime_ball>, [<item:minecraft:water_bucket>,<item:immersive_weathering:moss_clump>]);

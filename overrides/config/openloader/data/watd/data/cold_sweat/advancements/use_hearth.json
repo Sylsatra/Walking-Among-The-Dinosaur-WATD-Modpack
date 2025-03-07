@@ -1,0 +1,28 @@
+{
+  "parent": "cold_sweat:extreme_temps",
+  "display": {
+    "icon": {
+      "item": "cold_sweat:hearth"
+    },
+    "title": {
+      "translate": "advancements.cold_sweat.place_hearth.title"
+    },
+    "description": {
+      "translate": "advancements.cold_sweat.place_hearth.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

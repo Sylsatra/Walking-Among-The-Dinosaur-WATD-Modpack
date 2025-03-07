@@ -1,0 +1,44 @@
+{
+    "parent": "minecraft:adventure/shoot_arrow",
+    "display": {
+        "icon": {
+            "item": "spartanweaponry:iron_javelin",
+            "nbt": "{Damage:0}"
+        },
+        "title": {
+            "text": "Olympic Athlete"
+        },
+        "description": {
+            "text": "Hit a mob with a throwing javelin."
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "javelin": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_projectile": true,
+                        "direct_entity": {
+                            "type": "spartanweaponry:javelin"
+                        },
+                        "distance": {
+                            "horizontal": {
+                                "min": 30
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "javelin"
+        ]
+    ]
+}

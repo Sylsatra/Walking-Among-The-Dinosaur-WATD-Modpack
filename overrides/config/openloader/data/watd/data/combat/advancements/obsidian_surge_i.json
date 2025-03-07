@@ -1,0 +1,26 @@
+{
+  "parent": "combat:obsidian_catalyst",
+  "display": {
+    "icon": {
+      "item": "minecraft:obsidian"
+    },
+    "title": "Obsidian Surge I",
+    "description": "50 obsidians mined kindle a spark of accelerated might.",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "haste1": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:haste": {
+            "amplifier": 0
+          }
+        }
+      }
+    }
+  }
+}

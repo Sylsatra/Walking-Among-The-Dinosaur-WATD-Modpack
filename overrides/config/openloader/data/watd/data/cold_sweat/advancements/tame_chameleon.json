@@ -1,0 +1,28 @@
+{
+  "parent": "cold_sweat:root",
+  "display": {
+    "icon": {
+      "item": "cold_sweat:chameleon_molt"
+    },
+    "title": {
+      "translate": "advancements.cold_sweat.tame_chameleon.title"
+    },
+    "description": {
+      "translate": "advancements.cold_sweat.tame_chameleon.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

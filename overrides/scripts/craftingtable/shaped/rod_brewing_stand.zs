@@ -1,0 +1,1 @@
+craftingTable.addShaped("rod_brewing_stand",<item:minecraft:brewing_stand>, [[<item:minecraft:air>,<item:minecraft:air>,<item:minecraft:air>],[<item:minecraft:air>,<item:minecraft:lightning_rod>,<item:minecraft:air>],[<item:minecraft:stone_slab>,<item:minecraft:stone_slab>,<item:minecraft:stone_slab>]]);

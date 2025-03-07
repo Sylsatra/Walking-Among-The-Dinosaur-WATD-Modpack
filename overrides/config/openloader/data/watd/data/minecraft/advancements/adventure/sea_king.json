@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:adventure/spyglass_at_parrot", 
+  "display": {
+    "icon": {
+      "item": "minecraft:trident"
+    },
+    "title": {
+      "text": "King of the Ocean",
+      "color": "#1E90FF"
+    },
+    "description": {
+      "text": "Kill The Albino Mosasaurus!",
+      "color": "#DC143C"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "kill_creeperfear_mosasaurus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "fossil:mosasaurus",
+          "nbt": "{ForgeData:{creeperfearInRange:\"yes\"}}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill_creeperfear_mosasaurus"
+    ]
+  ]
+}

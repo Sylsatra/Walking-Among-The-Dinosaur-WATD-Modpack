@@ -1,0 +1,860 @@
+[
+    {
+        "result": "deny",
+        "mob": [
+            "minecraft:axolotl",
+            "minecraft:bat",
+            "minecraft:bee",
+            "minecraft:blaze",
+            "minecraft:cat",
+            "minecraft:cave_spider",
+            "minecraft:chicken",
+            "minecraft:cod",
+            "minecraft:cow",
+            "minecraft:creeper",
+            "minecraft:dolphin",
+            "minecraft:donkey",
+            "minecraft:drowned",
+            "minecraft:elder_guardian",
+            "minecraft:ender_dragon",
+            "minecraft:enderman",
+            "minecraft:endermite",
+            "minecraft:evoker",
+            "minecraft:fox",
+            "minecraft:ghast",
+            "minecraft:giant",
+            "minecraft:glow_squid",
+            "minecraft:goat",
+            "minecraft:guardian",
+            "minecraft:hoglin",
+            "minecraft:horse",
+            "minecraft:husk",
+            "minecraft:illusioner",
+            "minecraft:iron_golem",
+            "minecraft:llama",
+            "minecraft:magma_cube",
+            "minecraft:mooshroom",
+            "minecraft:mule",
+            "minecraft:ocelot",
+            "minecraft:panda",
+            "minecraft:parrot",
+            "minecraft:phantom",
+            "minecraft:pig",
+            "minecraft:piglin",
+            "minecraft:piglin_brute",
+            "minecraft:pillager",
+            "minecraft:polar_bear",
+            "minecraft:pufferfish",
+            "minecraft:rabbit",
+            "minecraft:ravager",
+            "minecraft:salmon",
+            "minecraft:sheep",
+            "minecraft:shulker",
+            "minecraft:silverfish",
+            "minecraft:skeleton",
+            "minecraft:skeleton_horse",
+            "minecraft:slime",
+            "minecraft:snow_golem",
+            "minecraft:spider",
+            "minecraft:squid",
+            "minecraft:stray",
+            "minecraft:strider",
+            "minecraft:trader_llama",
+            "minecraft:tropical_fish",
+            "minecraft:turtle",
+            "minecraft:vex",
+            "minecraft:villager",
+            "minecraft:vindicator",
+            "minecraft:wandering_trader",
+            "minecraft:witch",
+            "minecraft:wither",
+            "minecraft:wither_skeleton",
+            "minecraft:wolf",
+            "minecraft:zoglin",
+            "minecraft:zombie",
+            "minecraft:zombie_horse",
+            "minecraft:zombie_villager",
+            "minecraft:zombified_piglin",
+            "cold_sweat:chameleon"
+        ],
+        "dimension": "minecraft:overworld",
+        "mincount": {
+            "amount": 0
+        },
+        "onjoin": true
+    },
+    {
+        "result": "default",
+        "mob": [
+            "fossil:aquilolamna",
+            "fossil:coelacanth",
+            "fossil:walliserops",
+            "fossil:mosasaurus",
+            "fossil:plesiosaurus",
+            "fossil:ichthyosaurus"
+        ],
+        "dimension": "minecraft:overworld",
+        "biome": [
+            "minecraft:warm_ocean",
+            "minecraft:lukewarm_ocean"
+        ]
+    },
+    {
+        "result": "deny",
+        "mob": [
+            "fossil:aquilolamna",
+            "fossil:coelacanth",
+            "fossil:megalodon",
+            "fossil:mosasaurus",
+            "fossil:liopleurodon",
+            "fossil:plesiosaurus",
+            "fossil:ichthyosaurus"
+        ],
+        "dimension": "minecraft:overworld",
+        "incontrol": true
+    },
+    {
+        "result": "default",
+        "mob": [
+            "fossil:sturgeon",
+            "fossil:alligator_gar",
+            "fossil:nautilus",
+            "fossil:megalodon",
+            "fossil:megalograptus"
+        ],
+        "dimension": "minecraft:overworld",
+        "biome": [
+            "minecraft:cold_ocean",
+            "minecraft:deep_ocean",
+            "minecraft:deep_cold_ocean",
+            "minecraft:deep_frozen_ocean"
+        ]
+    },
+    {
+        "result": "deny",
+        "mob": [
+            "fossil:sturgeon",
+            "fossil:alligator_gar",
+            "fossil:nautilus"
+        ],
+        "dimension": "minecraft:overworld",
+        "incontrol": true
+    },
+    {
+        "result": "default",
+        "mob": [
+            "fossil:alligator_gar",
+            "fossil:tiktaalik"
+        ],
+        "dimension": "minecraft:overworld",
+        "biome": [
+            "terralith:warm_river",
+            "terralith:orchid_swamp",
+            "minecraft:river",
+            "minecraft:swamp"
+        ]
+    },
+    {
+        "result": "deny",
+        "mob": [
+            "fossil:alligator_gar",
+            "fossil:tiktaalik"
+        ],
+        "dimension": "minecraft:overworld",
+        "incontrol": true
+    },
+    {
+        "result": "default",
+        "mob": [
+            "fossil:brachiosaurus",
+            "fossil:gallimimus",
+            "fossil:parasaurolophus",
+            "fossil:dryosaurus",
+            "fossil:compsognathus",
+            "fossil:velociraptor",
+            "fossil:therizinosaurus",
+            "fossil:dimorphodon",
+            "fossil:megalania"
+        ],
+        "dimension": "minecraft:overworld",
+        "biome": [
+            "minecraft:jungle",
+            "minecraft:bamboo_jungle",
+            "minecraft:sparse_jungle",
+            "terralith:amethyst_rainforest",
+            "terralith:jungle_mountains",
+            "terralith:rocky_jungle",
+            "terralith:tropical_jungle"
+        ]
+    },
+    {
+        "result": "deny",
+        "mob": [
+            "fossil:brachiosaurus",
+            "fossil:gallimimus",
+            "fossil:parasaurolophus",
+            "fossil:dryosaurus",
+            "fossil:compsognathus",
+            "fossil:velociraptor",
+            "fossil:therizinosaurus",
+            "fossil:dimorphodon",
+            "fossil:megalania"
+        ],
+        "dimension": "minecraft:overworld",
+        "incontrol": true
+    },
+    {
+        "result": "default",
+        "mob": [
+            "fossil:ceratosaurus",
+            "fossil:pachyrhinosaurus",
+            "fossil:quagga",
+            "fossil:titanis",
+            "fossil:kelenken",
+            "fossil:phorusrhacos"
+        ],
+        "dimension": "minecraft:overworld",
+        "biome": [
+            "minecraft:savanna",
+            "minecraft:savanna_plateau",
+            "minecraft:windswept_savanna",
+            "terralith:ashen_savanna",
+            "terralith:fractured_savanna",
+            "terralith:hot_shrubland",
+            "terralith:rocky_shrubland",
+            "terralith:shrubland",
+            "terralith:brushland",
+            "terralith:blooming_plateau",
+            "terralith:savanna_slopes"
+        ]
+    },
+    {
+        "result": "deny",
+        "mob": [
+            "fossil:ceratosaurus",
+            "fossil:pachyrhinosaurus",
+            "fossil:quagga",
+            "fossil:titanis",
+            "fossil:kelenken",
+            "fossil:phorusrhacos"
+        ],
+        "dimension": "minecraft:overworld",
+        "incontrol": true
+    },
+    {
+        "result": "default",
+        "mob": [
+            "fossil:velociraptor",
+            "fossil:dilophosaurus",
+            "fossil:spinosaurus",
+            "fossil:pteranodon",
+            "fossil:dimetrodon",
+            "fossil:edaphosaurus"
+        ],
+        "dimension": "minecraft:overworld",
+        "biome": [
+            "minecraft:desert",
+            "minecraft:badlands",
+            "minecraft:eroded_badlands",
+            "terralith:bryce_canyon",
+            "terralith:savanna_badlands",
+            "terralith:volcanic_crater",
+            "terralith:ancient_sands",
+            "terralith:arid_highlands",
+            "terralith:desert_canyon",
+            "terralith:desert_oasis",
+            "terralith:desert_spires",
+            "terralith:gravel_desert",
+            "terralith:lush_desert",
+            "terralith:red_oasis",
+            "terralith:sandstone_valley",
+            "terralith:warped_mesa",
+            "terralith:white_mesa"
+        ]
+    },
+    {
+        "result": "deny",
+        "mob": [
+            "fossil:velociraptor",
+            "fossil:dilophosaurus",
+            "fossil:spinosaurus",
+            "fossil:pteranodon",
+            "fossil:dimetrodon",
+            "fossil:edaphosaurus"
+        ],
+        "dimension": "minecraft:overworld",
+        "incontrol": true
+    },
+    {
+        "result": "default",
+        "mob": [
+            "fossil:triceratops",
+            "fossil:pachycephalosaurus",
+            "fossil:psittacosaurus",
+            "fossil:protoceratops",
+            "fossil:ornitholestes",
+            "fossil:gallimimus"
+        ],
+        "dimension": "minecraft:overworld",
+        "biome": [
+            "minecraft:plains",
+            "minecraft:sunflower_plains",
+            "terralith:mountain_steppe",
+            "terralith:shield_clearing",
+            "terralith:temperate_highlands",
+            "terralith:yellowstone",
+            "terralith:yosemite_lowlands",
+            "terralith:steppe",
+            "terralith:blooming_valley",
+            "terralith:lavender_valley",
+            "terralith:lush_valley",
+            "terralith:valley_clearing"
+        ]
+    },
+    {
+        "result": "deny",
+        "mob": [
+            "fossil:triceratops",
+            "fossil:pachycephalosaurus",
+            "fossil:psittacosaurus",
+            "fossil:protoceratops",
+            "fossil:ornitholestes",
+            "fossil:dodo",
+            "fossil:gallimimus"
+        ],
+        "dimension": "minecraft:overworld",
+        "incontrol": true
+    },
+    {
+        "result": "default",
+        "mob": [
+            "fossil:allosaurus",
+            "fossil:ankylosaurus",
+            "fossil:dryosaurus",
+            "fossil:compsognathus",
+            "fossil:confuciusornis"
+        ],
+        "dimension": "minecraft:overworld",
+        "biome": [
+            "minecraft:forest",
+            "minecraft:flower_forest",
+            "minecraft:dark_forest",
+            "minecraft:birch_forest",
+            "terralith:lavender_forest",
+            "terralith:birch_taiga",
+            "terralith:cloud_forest",
+            "terralith:forested_highlands",
+            "terralith:highlands",
+            "terralith:moonlight_grove",
+            "terralith:moonlight_valley",
+            "terralith:shield",
+            "terralith:wintry_forest"
+        ]
+    },
+    {
+        "result": "deny",
+        "mob": [
+            "fossil:allosaurus",
+            "fossil:ankylosaurus",
+            "fossil:dryosaurus",
+            "fossil:compsognathus",
+            "fossil:confuciusornis"
+        ],
+        "dimension": "minecraft:overworld",
+        "incontrol": true
+    },
+    {
+        "result": "default",
+        "mob": [
+            "fossil:smilodon",
+            "fossil:mammoth",
+            "fossil:megaloceros",
+            "fossil:elasmotherium"
+        ],
+        "dimension": "minecraft:overworld",
+        "biome": [
+            "minecraft:taiga",
+            "minecraft:old_growth_pine_taiga",
+            "minecraft:old_growth_spruce_taiga",
+            "minecraft:snowy_plains",
+            "minecraft:snowy_taiga",
+            "minecraft:frozen_peaks",
+            "minecraft:ice_spikes",
+            "terralith:snowy_shield",
+            "terralith:alpine_grove",
+            "terralith:siberian_grove",
+            "terralith:siberian_taiga",
+            "terralith:snowy_maple_forest"
+        ]
+    },
+    {
+        "result": "deny",
+        "mob": [
+            "fossil:smilodon",
+            "fossil:mammoth",
+            "fossil:megaloceros",
+            "fossil:elasmotherium"
+        ],
+        "dimension": "minecraft:overworld",
+        "incontrol": true
+    },
+    {
+        "result": "default",
+        "mob": [
+            "fossil:arthropleura",
+            "fossil:meganeura",
+            "fossil:diplocaulus",
+            "fossil:crassigyrinus",
+            "fossil:dicranurus",
+            "fossil:lonchodomas",
+            "fossil:scotoharpes"
+        ],
+        "dimension": "minecraft:overworld",
+        "biome": [
+            "minecraft:dripstone_caves",
+            "minecraft:lush_caves",
+            "terralith:cave/fungal_caves",
+            "terralith:cave/underground_jungle"
+        ]
+    },
+    {
+        "result": "deny",
+        "mob": [
+            "fossil:arthropleura",
+            "fossil:meganeura",
+            "fossil:diplocaulus",
+            "fossil:crassigyrinus",
+            "fossil:dicranurus",
+            "fossil:lonchodomas",
+            "fossil:scotoharpes"
+        ],
+        "dimension": "minecraft:overworld",
+        "incontrol": true
+    },
+    {
+        "result": "default",
+        "mob": [
+            "fossil:dimetrodon",
+            "fossil:edaphosaurus"
+        ],
+        "dimension": "minecraft:overworld",
+        "biome": [
+            "terralith:orchid_swamp",
+            "minecraft:swamp"
+        ]
+    },
+    {
+        "result": "deny",
+        "mob": [
+            "fossil:dimetrodon",
+            "fossil:edaphosaurus"
+        ],
+        "dimension": "minecraft:overworld",
+        "incontrol": true
+    },
+    {
+        "result": "default",
+        "mob": [
+            "fossil:citipati"
+        ],
+        "dimension": "minecraft:overworld",
+        "biome": [
+            "minecraft:desert",
+            "minecraft:badlands",
+            "minecraft:eroded_badlands",
+            "terralith:bryce_canyon",
+            "terralith:savanna_badlands",
+            "terralith:volcanic_crater",
+            "terralith:ancient_sands",
+            "terralith:arid_highlands",
+            "terralith:desert_canyon",
+            "terralith:desert_oasis",
+            "terralith:desert_spires",
+            "terralith:gravel_desert",
+            "terralith:lush_desert",
+            "terralith:red_oasis",
+            "terralith:sandstone_valley",
+            "terralith:warped_mesa",
+            "terralith:white_mesa"
+        ]
+    },
+    {
+        "result": "deny",
+        "mob": [
+            "fossil:citipati"
+        ],
+        "dimension": "minecraft:overworld",
+        "incontrol": true
+    },
+    {
+        "result": "default",
+        "mob": [
+            "fossil:deinonychus"
+        ],
+        "dimension": "minecraft:overworld",
+        "biome": [
+            "minecraft:forest",
+            "minecraft:plains",
+            "minecraft:flower_forest",
+            "minecraft:dark_forest",
+            "minecraft:birch_forest",
+            "terralith:lavender_forest",
+            "terralith:birch_taiga",
+            "terralith:cloud_forest",
+            "terralith:forested_highlands",
+            "terralith:highlands",
+            "terralith:moonlight_grove",
+            "terralith:moonlight_valley",
+            "terralith:shield",
+            "terralith:wintry_forest",
+            "minecraft:sunflower_plains",
+            "terralith:mountain_steppe",
+            "terralith:shield_clearing",
+            "terralith:temperate_highlands",
+            "terralith:yellowstone",
+            "terralith:yosemite_lowlands",
+            "terralith:steppe",
+            "terralith:blooming_valley",
+            "terralith:lavender_valley",
+            "terralith:lush_valley",
+            "terralith:valley_clearing"
+        ]
+    },
+    {
+        "result": "deny",
+        "mob": [
+            "fossil:deinonychus"
+        ],
+        "dimension": "minecraft:overworld",
+        "incontrol": true
+    },
+    {
+        "result": "default",
+        "mob": [
+            "fossil:diplodocus"
+        ],
+        "dimension": "minecraft:overworld",
+        "biome": [
+            "minecraft:plains",
+            "minecraft:sunflower_plains",
+            "terralith:mountain_steppe",
+            "terralith:shield_clearing",
+            "terralith:temperate_highlands",
+            "terralith:yellowstone",
+            "terralith:yosemite_lowlands",
+            "terralith:steppe",
+            "terralith:blooming_valley",
+            "terralith:lavender_valley",
+            "terralith:lush_valley",
+            "terralith:valley_clearing"
+        ]
+    },
+    {
+        "result": "deny",
+        "mob": [
+            "fossil:diplodocus"
+        ],
+        "dimension": "minecraft:overworld",
+        "incontrol": true
+    },
+    {
+        "result": "default",
+        "mob": [
+            "fossil:gastornis"
+        ],
+        "dimension": "minecraft:overworld",
+        "biome": [
+            "minecraft:forest",
+            "minecraft:flower_forest",
+            "minecraft:dark_forest",
+            "minecraft:birch_forest",
+            "terralith:lavender_forest",
+            "terralith:birch_taiga",
+            "terralith:cloud_forest",
+            "terralith:forested_highlands",
+            "terralith:highlands",
+            "terralith:moonlight_grove",
+            "terralith:moonlight_valley",
+            "terralith:shield",
+            "terralith:wintry_forest",
+            "terralith:orchid_swamp",
+            "minecraft:swamp"
+        ]
+    },
+    {
+        "result": "deny",
+        "mob": [
+            "fossil:gastornis"
+        ],
+        "dimension": "minecraft:overworld",
+        "incontrol": true
+    },
+    {
+        "result": "default",
+        "mob": [
+            "fossil:henodus"
+        ],
+        "dimension": "minecraft:overworld",
+        "biome": [
+            "minecraft:swamp",
+            "terralith:orchid_swamp",
+            "minecraft:river",
+            "terralith:warm_river"
+        ]
+    },
+    {
+        "result": "deny",
+        "mob": [
+            "fossil:henodus"
+        ],
+        "dimension": "minecraft:overworld",
+        "incontrol": true
+    },
+    {
+        "result": "default",
+        "mob": [
+            "fossil:megalograptus"
+        ],
+        "dimension": "minecraft:overworld",
+        "biome": [
+            "minecraft:cold_ocean",
+            "minecraft:deep_ocean",
+            "minecraft:deep_cold_ocean",
+            "minecraft:deep_frozen_ocean"
+        ]
+    },
+    {
+        "result": "deny",
+        "mob": [
+            "fossil:megalograptus"
+        ],
+        "dimension": "minecraft:overworld",
+        "incontrol": true
+    },
+    {
+        "result": "default",
+        "mob": [
+            "fossil:platybelodon"
+        ],
+        "dimension": "minecraft:overworld",
+        "biome": [
+            "minecraft:plains",
+            "minecraft:sunflower_plains",
+            "terralith:mountain_steppe",
+            "terralith:shield_clearing",
+            "terralith:temperate_highlands",
+            "terralith:yellowstone",
+            "terralith:yosemite_lowlands",
+            "terralith:steppe",
+            "terralith:blooming_valley",
+            "terralith:lavender_valley",
+            "terralith:lush_valley",
+            "terralith:valley_clearing"
+        ]
+    },
+    {
+        "result": "deny",
+        "mob": [
+            "fossil:platybelodon"
+        ],
+        "dimension": "minecraft:overworld",
+        "incontrol": true
+    },
+    {
+        "result": "default",
+        "mob": [
+            "fossil:quetzalcoatlus"
+        ],
+        "dimension": "minecraft:overworld",
+        "biome": [
+            "minecraft:desert",
+            "minecraft:badlands",
+            "minecraft:eroded_badlands",
+            "terralith:bryce_canyon",
+            "terralith:savanna_badlands",
+            "terralith:volcanic_crater",
+            "terralith:ancient_sands",
+            "terralith:arid_highlands",
+            "terralith:desert_canyon",
+            "terralith:desert_oasis",
+            "terralith:desert_spires",
+            "terralith:gravel_desert",
+            "terralith:lush_desert",
+            "terralith:red_oasis",
+            "terralith:sandstone_valley",
+            "terralith:warped_mesa",
+            "terralith:white_mesa"
+        ]
+    },
+    {
+        "result": "deny",
+        "mob": [
+            "fossil:quetzalcoatlus"
+        ],
+        "dimension": "minecraft:overworld",
+        "incontrol": true
+    },
+    {
+        "result": "default",
+        "mob": [
+            "fossil:sarcosuchus"
+        ],
+        "dimension": "minecraft:overworld",
+        "biome": [
+            "minecraft:swamp",
+            "terralith:orchid_swamp",
+            "minecraft:river",
+            "terralith:warm_river"
+        ]
+    },
+    {
+        "result": "deny",
+        "mob": [
+            "fossil:sarcosuchus"
+        ],
+        "dimension": "minecraft:overworld",
+        "incontrol": true
+    },
+    {
+        "result": "default",
+        "mob": [
+            "fossil:stegosaurus"
+        ],
+        "dimension": "minecraft:overworld",
+        "biome": [
+            "minecraft:forest",
+            "minecraft:plains",
+            "minecraft:flower_forest",
+            "minecraft:dark_forest",
+            "minecraft:birch_forest",
+            "terralith:lavender_forest",
+            "terralith:birch_taiga",
+            "terralith:cloud_forest",
+            "terralith:forested_highlands",
+            "terralith:highlands",
+            "terralith:moonlight_grove",
+            "terralith:moonlight_valley",
+            "terralith:shield",
+            "terralith:wintry_forest",
+            "minecraft:sunflower_plains",
+            "terralith:mountain_steppe",
+            "terralith:shield_clearing",
+            "terralith:temperate_highlands",
+            "terralith:yellowstone",
+            "terralith:yosemite_lowlands",
+            "terralith:steppe",
+            "terralith:blooming_valley",
+            "terralith:lavender_valley",
+            "terralith:lush_valley",
+            "terralith:valley_clearing"
+        ]
+    },
+    {
+        "result": "deny",
+        "mob": [
+            "fossil:stegosaurus"
+        ],
+        "dimension": "minecraft:overworld",
+        "incontrol": true
+    },
+    {
+        "result": "default",
+        "mob": [
+            "fossil:walliserops"
+        ],
+        "dimension": "minecraft:overworld",
+        "biome": [
+            "minecraft:warm_ocean",
+            "minecraft:lukewarm_ocean"
+        ]
+    },
+    {
+        "result": "deny",
+        "mob": [
+            "fossil:walliserops"
+        ],
+        "dimension": "minecraft:overworld",
+        "incontrol": true
+    },
+    {
+        "result": "default",
+        "mob": [
+            "fossil:dodo"
+        ],
+        "dimension": "minecraft:overworld",
+        "biome": [
+            "terralith:alpha_islands",
+            "terralith:alpha_islands_winter",
+            "terralith:mirage_isles"
+        ]
+    },
+    {
+        "result": "deny",
+        "mob": [
+            "fossil:dodo"
+        ],
+        "dimension": "minecraft:overworld",
+        "incontrol": true
+    },
+    {
+        "result": "default",
+        "onjoin": true,
+        "mob": "fossil:tyrannosaurus",
+        "biome": [
+            "minecraft:savanna",
+            "minecraft:savanna_plateau",
+            "minecraft:windswept_savanna",
+            "terralith:ashen_savanna",
+            "terralith:fractured_savanna",
+            "terralith:hot_shrubland",
+            "terralith:rocky_shrubland",
+            "terralith:shrubland",
+            "terralith:brushland",
+            "terralith:blooming_plateau",
+            "terralith:savanna_slopes",
+            "minecraft:plains",
+            "minecraft:sunflower_plains",
+            "terralith:mountain_steppe",
+            "terralith:shield_clearing",
+            "terralith:temperate_highlands",
+            "terralith:yellowstone",
+            "terralith:yosemite_lowlands",
+            "terralith:steppe",
+            "terralith:blooming_valley",
+            "terralith:lavender_valley",
+            "terralith:lush_valley",
+            "terralith:valley_clearing",
+            "minecraft:forest",
+            "minecraft:flower_forest",
+            "minecraft:dark_forest",
+            "minecraft:birch_forest",
+            "terralith:lavender_forest",
+            "terralith:birch_taiga",
+            "terralith:cloud_forest",
+            "terralith:forested_highlands",
+            "terralith:highlands",
+            "terralith:moonlight_grove",
+            "terralith:moonlight_valley",
+            "terralith:shield",
+            "terralith:wintry_forest"
+        ]
+    },
+    {
+        "result": "deny",
+        "mob": [
+            "fossil:tyrannosaurus"
+        ],
+        "dimension": "minecraft:overworld",
+        "incontrol": true
+    },
+    {
+        "result": "deny",
+        "mod": "fossil",
+        "dimension": "minecraft:overworld",
+        "mincount": {
+            "amount": 4,
+            "perchunk": true,
+            "mod": "fossil"
+        }
+    }
+]

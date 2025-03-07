@@ -1,0 +1,70 @@
+{
+  "parent": "watd:river_monster_the_beginning",
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_boots",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "text": "A decent fishing spot"
+    },
+    "description": {
+      "text": "Find a warm river or a swamp to fish!"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "minecraft:river": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:river"
+        }
+      }
+    },
+    "terralith:warm_river": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "terralith:warm_river"
+        }
+      }
+    },
+    "minecraft:swamp": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:swamp"
+        }
+      }
+    },
+    "terralith:orchid_swamp": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "terralith:orchid_swamp"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:river"
+    ,
+    
+      "terralith:warm_river"
+    ,
+    
+      "minecraft:swamp"
+    ,
+    
+      "terralith:orchid_swamp"
+    ]
+  ]
+}

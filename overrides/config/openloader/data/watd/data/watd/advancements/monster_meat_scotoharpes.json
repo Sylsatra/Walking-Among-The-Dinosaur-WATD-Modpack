@@ -1,0 +1,41 @@
+{
+    "parent": "watd:cave",
+    "display": {
+        "icon": {
+            "item": "kubejs:scotoharpes"
+        },
+        "title": {
+            "text": "Reeled in a Scotoharpes",
+            "color": "#00bfff"
+        },
+        "description": {
+            "text": "Silent predators of dripping, lush, and fungal depths.",
+            "color": "#008080"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+    },
+    "criteria": {
+        "scotoharpes": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "fossil:meat_scotoharpes"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "scotoharpes"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    }
+}

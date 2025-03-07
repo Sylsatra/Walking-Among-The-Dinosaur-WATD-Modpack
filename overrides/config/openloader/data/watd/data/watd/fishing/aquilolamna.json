@@ -1,0 +1,8 @@
+{
+    "input": {
+        "item": "fossil:meat_aquilolamna"
+    },
+    "result": {
+        "id": "fossil:aquilolamna"
+    }
+}

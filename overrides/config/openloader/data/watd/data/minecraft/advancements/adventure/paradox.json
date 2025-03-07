@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:adventure/kill_a_mob",
+  "display": {
+    "icon": {
+      "item": "minecraft:clock"
+    },
+    "title": {
+      "text": "Grandfather Paradox"
+    },
+    "description": {
+      "text": "You shattered the timeline by eliminating your ancient ancestor."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tiktaalik": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "fossil:tiktaalik"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "tiktaalik"
+    ]
+  ]
+}

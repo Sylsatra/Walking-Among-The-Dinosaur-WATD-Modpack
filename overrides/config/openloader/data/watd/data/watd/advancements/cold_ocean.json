@@ -1,0 +1,70 @@
+{
+  "parent": "watd:river_monster_the_beginning",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_boots",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "text": "A chilly fishing spot"
+    },
+    "description": {
+      "text": "Find a cold ocean to fish!"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "minecraft:cold_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:cold_ocean"
+        }
+      }
+    },
+    "minecraft:deep_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:deep_ocean"
+        }
+      }
+    },
+    "minecraft:deep_cold_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:deep_cold_ocean"
+        }
+      }
+    },
+    "minecraft:deep_frozen_ocean": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:deep_frozen_ocean"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:cold_ocean"
+    ,
+    
+      "minecraft:deep_ocean"
+    ,
+    
+      "minecraft:deep_cold_ocean"
+    ,
+    
+      "minecraft:deep_frozen_ocean"
+    ]
+  ]
+}

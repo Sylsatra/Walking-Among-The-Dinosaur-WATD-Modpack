@@ -1,0 +1,26 @@
+{
+  "parent": "combat:endurance_1",
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_chestplate"
+    },
+    "title": "Endurance II: Forged in Pain",
+    "description": "1000 damage absorbed—your spirit grows stronger.",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "endurance_2": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "feathers:endurance": {
+            "amplifier": 1
+          }
+        }
+      }
+    }
+  }
+}

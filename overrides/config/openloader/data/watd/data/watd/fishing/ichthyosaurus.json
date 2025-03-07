@@ -1,0 +1,8 @@
+{
+    "input": {
+        "item": "fossil:meat_ichthyosaurus"
+    },
+    "result": {
+        "id": "fossil:ichthyosaurus"
+    }
+}

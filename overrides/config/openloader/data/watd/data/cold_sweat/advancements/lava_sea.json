@@ -1,0 +1,28 @@
+{
+  "parent": "cold_sweat:huddle_close",
+  "display": {
+    "icon": {
+      "item": "minecraft:lava_bucket"
+    },
+    "title": {
+      "translate": "advancements.cold_sweat.lava_sea.title"
+    },
+    "description": {
+      "translate": "advancements.cold_sweat.lava_sea.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

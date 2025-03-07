@@ -1,0 +1,19 @@
+{
+  "parent": "combat:infernal_weaponry",
+  "display": {
+    "icon": {
+      "item": "spartanweaponry:wooden_longbow"
+    },
+    "title": "Ranged Rampage",
+    "description": "Long-range weapons deliver swift justice; mastery unlocks speed.",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

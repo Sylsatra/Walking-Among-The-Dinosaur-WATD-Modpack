@@ -1,0 +1,89 @@
+{
+  "parent": "fossil:fossil/root",
+  "display": {
+    "icon": {
+      "item": "fossil:relic_scrap"
+    },
+    "title": {
+      "translate": "advancements.fossil.break_fossil.title"
+    },
+    "description": {
+      "translate": "advancements.fossil.break_fossil.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "relic_scrap": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fossil:relic_scrap"
+            ]
+          }
+        ]
+      }
+    },
+    "fossil_bio": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fossil:fossil_bio"
+            ]
+          }
+        ]
+      }
+    },
+    "fossil_plant": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fossil:fossil_plant"
+            ]
+          }
+        ]
+      }
+    },
+    "fossil_shale": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fossil:fossil_shale"
+            ]
+          }
+        ]
+      }
+    },
+    "skull": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fossil:skull"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "relic_scrap",
+      "fossil_bio",
+      "fossil_plant",
+      "fossil_shale",
+      "skull"
+    ]
+  ]
+}

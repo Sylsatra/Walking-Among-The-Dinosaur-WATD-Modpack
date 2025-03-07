@@ -1,0 +1,28 @@
+{
+  "parent": "cold_sweat:huddle_close",
+  "display": {
+    "icon": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "title": {
+      "translate": "advancements.cold_sweat.last_resort.title"
+    },
+    "description": {
+      "translate": "advancements.cold_sweat.last_resort.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

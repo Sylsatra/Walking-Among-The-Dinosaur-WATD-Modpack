@@ -1,0 +1,26 @@
+{
+  "parent": "combat:pummeling_power",
+  "display": {
+    "icon": {
+      "item": "spartanweaponry:stone_halberd"
+    },
+    "title": "Trial of the Iron Fist",
+    "description": "100 relentless practices with heavy weapon ignite your raw power.",
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "strength1": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:strength": {
+            "amplifier": 0
+          }
+        }
+      }
+    }
+  }
+}

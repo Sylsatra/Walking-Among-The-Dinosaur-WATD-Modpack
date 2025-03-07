@@ -1,0 +1,95 @@
+{
+  "type": "minecraft:min",
+  "argument1": {
+    "type": "minecraft:mul",
+    "argument1": 0.64,
+    "argument2": {
+      "type": "minecraft:interpolated",
+      "argument": {
+        "type": "minecraft:blend_density",
+        "argument": {
+          "type": "minecraft:slide",
+          "argument": {
+            "type": "minecraft:range_choice",
+            "input": "minecraft:overworld/sloped_cheese",
+            "min_inclusive": -1000000,
+            "max_exclusive": 1.5625,
+            "when_in_range": {
+              "type": "minecraft:min",
+              "argument1": {
+                "type": "minecraft:max",
+                "argument1": {
+                  "type": "minecraft:add",
+                  "argument1": "minecraft:overworld/sloped_cheese",
+                  "argument2": {
+                    "type": "minecraft:beardifier"
+                  }
+                },
+                "argument2": "terralith:extra_terrain_sum"
+              },
+              "argument2": {
+                "type": "minecraft:mul",
+                "argument1": 5,
+                "argument2": {
+                  "type": "min",
+                  "argument1": "minecraft:overworld/caves/entrances",
+                  "argument2": "terralith:subtract_terrain_sum"
+                }
+              }
+            },
+            "when_out_of_range": {
+              "type": "min",
+              "argument1": {
+                "type": "minecraft:max",
+                "argument1": {
+                  "type": "minecraft:min",
+                  "argument1": {
+                    "type": "minecraft:min",
+                    "argument1": {
+                      "type": "minecraft:add",
+                      "argument1": "terralith:reference/cave_layer",
+                      "argument2": {
+                        "type": "minecraft:add",
+                        "argument1": "terralith:reference/cave_cheese",
+                        "argument2": {
+                          "type": "minecraft:clamp",
+                          "input": {
+                            "type": "minecraft:add",
+                            "argument1": 1.5,
+                            "argument2": {
+                              "type": "minecraft:mul",
+                              "argument1": -0.64,
+                              "argument2": "minecraft:overworld/sloped_cheese"
+                            }
+                          },
+                          "min": 0,
+                          "max": 0.5
+                        }
+                      }
+                    },
+                    "argument2": "minecraft:overworld/caves/entrances"
+                  },
+                  "argument2": {
+                    "type": "minecraft:add",
+                    "argument1": "minecraft:overworld/caves/spaghetti_2d",
+                    "argument2": "minecraft:overworld/caves/spaghetti_roughness_function"
+                  }
+                },
+                "argument2": {
+                  "type": "minecraft:range_choice",
+                  "input": "minecraft:overworld/caves/pillars",
+                  "min_inclusive": -1000000,
+                  "max_exclusive": 0.03,
+                  "when_in_range": -1000000,
+                  "when_out_of_range": "minecraft:overworld/caves/pillars"
+                }
+              },
+              "argument2": "terralith:subtract_terrain_sum"
+            }
+          }
+        }
+      }
+    }
+  },
+  "argument2": "minecraft:overworld/caves/noodle"
+}

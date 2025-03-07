@@ -1,0 +1,19 @@
+{
+  "parent": "combat:codex_of_combat",
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_chestplate"
+    },
+    "title": "Arcane Armorsmithing",
+    "description": "Learn the art of armor",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

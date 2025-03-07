@@ -1,0 +1,41 @@
+{
+    "parent": "watd:warm_ocean",
+    "display": {
+        "icon": {
+            "item": "kubejs:mosasaurus"
+        },
+        "title": {
+            "text": "Reeled in a Mosasaurus",
+            "color": "#305d99"
+        },
+        "description": {
+            "text": "The king of the warm ocean.",
+            "color": "#FFD700"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
+    },
+    "criteria": {
+        "mosasaurus": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "fossil:meat_mosasaurus"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "mosasaurus"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    }
+}

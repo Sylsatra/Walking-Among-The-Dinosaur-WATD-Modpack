@@ -1,0 +1,19 @@
+{
+  "parent": "combat:codex_of_combat",
+  "display": {
+    "icon": {
+      "item": "spartanweaponry:aluminum_battleaxe"
+    },
+    "title": "Infernal Weaponry",
+    "description": "Unleash the fury of your forged blades.",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

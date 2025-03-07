@@ -1,0 +1,41 @@
+{
+    "parent": "watd:cold_ocean",
+    "display": {
+        "icon": {
+            "item": "kubejs:megalodon"
+        },
+        "title": {
+            "text": "Reeled in a Megalodon",
+            "color": "#0080ff"
+        },
+        "description": {
+            "text": "Cold-blooded predator.",
+            "color": "#00bfff"
+        },
+        "frame": "goal",
+        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "megalodon": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "fossil:meat_megalodon"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "megalodon"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    }
+}

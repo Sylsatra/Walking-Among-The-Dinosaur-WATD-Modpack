@@ -1,0 +1,1082 @@
+{
+  "parent": "minecraft:adventure/kill_a_mob",
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_sword",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "text": "Ancient Eradicator",
+      "color": "#FFD700"
+    },
+    "description": {
+      "text": "Wipe out every prehistoric beast and reign over the lost world!",
+      "color": "#DAA520"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 10000
+  },
+  "criteria": {
+    "fossil:alligator_gar": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:alligator_gar"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:allosaurus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:allosaurus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:ankylosaurus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:ankylosaurus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:aquilolamna": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:aquilolamna"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:arthropleura": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:arthropleura"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:brachiosaurus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:brachiosaurus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:ceratosaurus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:ceratosaurus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:citipati": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:citipati"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:coelacanth": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:coelacanth"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:compsognathus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:compsognathus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:confuciusornis": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:confuciusornis"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:crassigyrinus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:crassigyrinus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:deinonychus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:deinonychus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:dilophosaurus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:dilophosaurus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:dimetrodon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:dimetrodon"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:dimorphodon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:dimorphodon"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:diplocaulus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:diplocaulus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:diplodocus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:diplodocus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:dodo": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:dodo"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:dryosaurus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:dryosaurus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:edaphosaurus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:edaphosaurus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:elasmotherium": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:elasmotherium"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:gallimimus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:gallimimus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:gastornis": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:gastornis"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:henodus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:henodus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:ichthyosaurus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:ichthyosaurus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:kelenken": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:kelenken"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:liopleurodon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:liopleurodon"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:mammoth": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:mammoth"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:megalania": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:megalania"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:megaloceros": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:megaloceros"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:megalodon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:megalodon"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:megalograptus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:megalograptus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:meganeura": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:meganeura"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:mosasaurus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:mosasaurus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:nautilus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:nautilus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:ornitholestes": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:ornitholestes"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:pachycephalosaurus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:pachycephalosaurus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:pachyrhinosaurus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:pachyrhinosaurus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:parasaurolophus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:parasaurolophus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:phorusrhacos": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:phorusrhacos"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:platybelodon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:platybelodon"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:plesiosaurus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:plesiosaurus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:protoceratops": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:protoceratops"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:psittacosaurus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:psittacosaurus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:pteranodon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:pteranodon"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:quagga": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:quagga"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:quetzalcoatlus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:quetzalcoatlus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:sarcosuchus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:sarcosuchus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:smilodon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:smilodon"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:spinosaurus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:spinosaurus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:stegosaurus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:stegosaurus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:sturgeon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:sturgeon"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:therizinosaurus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:therizinosaurus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:tiktaalik": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:tiktaalik"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:titanis": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:titanis"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:triceratops": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:triceratops"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:tyrannosaurus": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:tyrannosaurus"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:velociraptor": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:velociraptor"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:lonchodomas": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:lonchodomas"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:scotoharpes": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:scotoharpes"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "fossil:walliserops": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "fossil:walliserops"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fossil:alligator_gar"
+    ],
+    [
+      "fossil:allosaurus"
+    ],
+    [
+      "fossil:ankylosaurus"
+    ],
+    [
+      "fossil:aquilolamna"
+    ],
+    [
+      "fossil:arthropleura"
+    ],
+    [
+      "fossil:brachiosaurus"
+    ],
+    [
+      "fossil:ceratosaurus"
+    ],
+    [
+      "fossil:citipati"
+    ],
+    [
+      "fossil:coelacanth"
+    ],
+    [
+      "fossil:compsognathus"
+    ],
+    [
+      "fossil:confuciusornis"
+    ],
+    [
+      "fossil:crassigyrinus"
+    ],
+    [
+      "fossil:deinonychus"
+    ],
+    [
+      "fossil:dilophosaurus"
+    ],
+    [
+      "fossil:dimetrodon"
+    ],
+    [
+      "fossil:dimorphodon"
+    ],
+    [
+      "fossil:diplocaulus"
+    ],
+    [
+      "fossil:diplodocus"
+    ],
+    [
+      "fossil:dodo"
+    ],
+    [
+      "fossil:dryosaurus"
+    ],
+    [
+      "fossil:edaphosaurus"
+    ],
+    [
+      "fossil:elasmotherium"
+    ],
+    [
+      "fossil:gallimimus"
+    ],
+    [
+      "fossil:gastornis"
+    ],
+    [
+      "fossil:henodus"
+    ],
+    [
+      "fossil:ichthyosaurus"
+    ],
+    [
+      "fossil:kelenken"
+    ],
+    [
+      "fossil:liopleurodon"
+    ],
+    [
+      "fossil:mammoth"
+    ],
+    [
+      "fossil:megalania"
+    ],
+    [
+      "fossil:megaloceros"
+    ],
+    [
+      "fossil:megalodon"
+    ],
+    [
+      "fossil:megalograptus"
+    ],
+    [
+      "fossil:meganeura"
+    ],
+    [
+      "fossil:mosasaurus"
+    ],
+    [
+      "fossil:nautilus"
+    ],
+    [
+      "fossil:ornitholestes"
+    ],
+    [
+      "fossil:pachycephalosaurus"
+    ],
+    [
+      "fossil:pachyrhinosaurus"
+    ],
+    [
+      "fossil:parasaurolophus"
+    ],
+    [
+      "fossil:phorusrhacos"
+    ],
+    [
+      "fossil:platybelodon"
+    ],
+    [
+      "fossil:plesiosaurus"
+    ],
+    [
+      "fossil:protoceratops"
+    ],
+    [
+      "fossil:psittacosaurus"
+    ],
+    [
+      "fossil:pteranodon"
+    ],
+    [
+      "fossil:quagga"
+    ],
+    [
+      "fossil:quetzalcoatlus"
+    ],
+    [
+      "fossil:sarcosuchus"
+    ],
+    [
+      "fossil:smilodon"
+    ],
+    [
+      "fossil:spinosaurus"
+    ],
+    [
+      "fossil:stegosaurus"
+    ],
+    [
+      "fossil:sturgeon"
+    ],
+    [
+      "fossil:therizinosaurus"
+    ],
+    [
+      "fossil:tiktaalik"
+    ],
+    [
+      "fossil:titanis"
+    ],
+    [
+      "fossil:triceratops"
+    ],
+    [
+      "fossil:tyrannosaurus"
+    ],
+    [
+      "fossil:velociraptor"
+    ],
+    [
+      "fossil:lonchodomas"
+    ],
+    [
+      "fossil:scotoharpes"
+    ],
+    [
+      "fossil:walliserops"
+    ]
+  ]
+}

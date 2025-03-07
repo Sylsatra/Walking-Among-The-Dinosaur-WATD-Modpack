@@ -1,0 +1,28 @@
+{
+  "parent": "cold_sweat:insulate_armor",
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_chestplate"
+    },
+    "title": {
+      "translate": "advancements.cold_sweat.full_insulation.title"
+    },
+    "description": {
+      "translate": "advancements.cold_sweat.full_insulation.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

@@ -1,0 +1,8 @@
+{
+    "input": {
+        "item": "fossil:meat_crassigyrinus"
+    },
+    "result": {
+        "id": "fossil:crassigyrinus"
+    }
+}

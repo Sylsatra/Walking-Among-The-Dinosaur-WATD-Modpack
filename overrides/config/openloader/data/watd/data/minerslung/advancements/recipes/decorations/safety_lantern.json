@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minerslung:safety_lantern"
+    ]
+  },
+  "criteria": {
+    "namesarehard": {
+      "trigger": "minerslung:breathe_bad_air",
+      "conditions": {
+        "air_qualities": [
+          "yellow",
+          "red"
+        ],
+        "protection": "none"
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minerslung:safety_lantern"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "namesarehard",
+      "has_the_recipe"
+    ]
+  ]
+}

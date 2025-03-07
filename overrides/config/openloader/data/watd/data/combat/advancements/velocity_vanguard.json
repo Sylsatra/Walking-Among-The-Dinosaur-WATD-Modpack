@@ -1,0 +1,26 @@
+{
+  "parent": "combat:haste_havoc",
+  "display": {
+    "icon": {
+      "item": "spartanweaponry:netherite_longbow"
+    },
+    "title": "Velocity Vanguard",
+    "description": "1000 strikes: Ultimate speed crowns your ranged combat mastery.",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "speed_effect": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:speed": {
+            "amplifier": 2
+          }
+        }
+      }
+    }
+  }
+}

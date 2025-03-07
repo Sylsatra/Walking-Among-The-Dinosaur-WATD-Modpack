@@ -1,0 +1,11 @@
+{
+    "input": {
+        "item": "fossil:meat_megalodon"
+    },
+    "result": {
+        "id": "fossil:megalodon",
+        "nbt": {
+            "Age": 14000
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "parent": "minerslung:soul",
+  "display": {
+    "icon": {
+      "item": "minerslung:soulfire_bottle"
+    },
+    "title": {
+      "translate": "advancement.minerslung:soulfire_bottle"
+    },
+    "description": {
+      "translate": "advancement.minerslung:soulfire_bottle.desc"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "on_use": {
+      "trigger": "minerslung:use_soulfire_bottle",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "on_use"
+    ]
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "combat:endurance_4",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_chestplate"
+    },
+    "title": "Endurance V: Transcendence",
+    "description": "10000 damage absorbed—your mastery of endurance is complete.",
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "endurance_5": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "feathers:endurance": {
+            "amplifier": 4
+          }
+        }
+      }
+    }
+  }
+}

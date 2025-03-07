@@ -1,0 +1,10 @@
+{
+  "type":"add",
+  "argument1":128,
+  "argument2":{
+    "type":"mul",
+    "argument1":"minecraft:overworld/noise_router/depth",
+    "argument2":128
+
+  }
+}

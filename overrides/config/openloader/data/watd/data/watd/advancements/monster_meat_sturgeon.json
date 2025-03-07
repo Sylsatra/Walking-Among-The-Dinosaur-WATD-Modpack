@@ -1,0 +1,40 @@
+{
+    "parent": "watd:cold_ocean",
+    "display": {
+        "icon": {
+            "item": "kubejs:sturgeon"
+        },
+        "title": {
+            "text": "Reeled in a Sturgeon",
+            "color": "#4682B4"
+        },
+        "description": {
+            "text": "Majestic giant of cold, shadowy currents.",
+            "color": "#B0C4DE"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "sturgeon": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "fossil:meat_sturgeon"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "sturgeon"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    }
+}

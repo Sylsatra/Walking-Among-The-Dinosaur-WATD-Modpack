@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/haihb/curseforge/minecraft/Instances/WATD-Walking Among The Dinosaur/saves/New World
+}
+

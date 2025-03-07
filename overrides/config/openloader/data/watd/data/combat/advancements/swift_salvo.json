@@ -1,0 +1,26 @@
+{
+  "parent": "combat:ranged_rampage",
+  "display": {
+    "icon": {
+      "item": "spartanweaponry:leather_longbow"
+    },
+    "title": "Swift Salvo",
+    "description": "100 strikes: Your speed ignites a rapid onslaught.",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "speed_effect": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:speed": {
+            "amplifier": 0
+          }
+        }
+      }
+    }
+  }
+}

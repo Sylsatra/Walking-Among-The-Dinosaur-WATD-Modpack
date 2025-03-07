@@ -1,0 +1,1 @@
+craftingTable.addShapeless("name_tag",<item:minecraft:name_tag>, [<item:minecraft:feather>,<item:minecraft:string>,<item:minecraft:paper>,<item:minecraft:yellow_dye>]);

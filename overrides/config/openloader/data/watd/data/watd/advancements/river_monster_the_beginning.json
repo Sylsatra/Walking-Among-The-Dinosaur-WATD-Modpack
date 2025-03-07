@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:fishing_rod"
+        },
+        "title": {
+            "text": "River Monster: The Beginning",
+            "color": "#00aaff"
+        },
+        "description": {
+            "text": "The journey to become the best angler has begun.",
+            "color": "#ffaa00"
+        },
+        "frame": "task",
+        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        [
+            "tick"
+        ]
+    ]
+}

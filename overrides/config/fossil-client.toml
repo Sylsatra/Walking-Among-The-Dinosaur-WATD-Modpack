@@ -1,0 +1,9 @@
+#True if Dilophosaurus should be feathered
+featheredDilo = true
+#True if Dryosaurus should be feathered
+featheredDryo = true
+#True if the Custom Main Menu should be enabled
+customMainMenu = false
+#True if skull helmet and ancient helmet should render overlays like vanilla pumpkin
+helmetOverlays = true
+

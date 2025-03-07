@@ -1,0 +1,35 @@
+{
+  "parent": "fossil:fossil/root",
+  "display": {
+    "icon": {
+      "item": "fossil:egg_item_triceratops"
+    },
+    "title": {
+      "text": "Egg thief"
+    },
+    "description": {
+      "text": "Steal an egg"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "fossil:all_eggs"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
+}

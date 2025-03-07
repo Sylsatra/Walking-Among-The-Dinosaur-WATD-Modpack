@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:nether/brew_potion",
+  "display": {
+    "icon": {
+      "item": "minecraft:milk_bucket"
+    },
+    "title": {
+      "translate": "advancements.nether.all_potions.title"
+    },
+    "description": {
+      "translate": "advancements.nether.all_potions.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

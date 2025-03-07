@@ -1,0 +1,26 @@
+{
+  "parent": "combat:swift_salvo",
+  "display": {
+    "icon": {
+      "item": "spartanweaponry:diamond_longbow"
+    },
+    "title": "Haste Havoc",
+    "description": "500 strikes: Greater speed fuels relentless barrage.",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "speed_effect": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:speed": {
+            "amplifier": 1
+          }
+        }
+      }
+    }
+  }
+}

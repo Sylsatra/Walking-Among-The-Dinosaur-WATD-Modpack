@@ -1,0 +1,51 @@
+{
+  "parent": "minecraft:adventure/spyglass_at_ghast",
+  "display": {
+    "icon": {
+      "item": "minecraft:spyglass"
+    },
+    "title": {
+      "translate": "advancements.adventure.spyglass_at_dragon.title",
+      "color": "#8A2BE2"
+    },
+    "description": {
+      "text": "NO IT IS NOT!",
+      "color": "#FF4500"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "spyglass_at_dragon": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "player": {
+                "looking_at": {
+                  "type": "fossil:quetzalcoatlus",
+                  "nbt": "{ForgeData:{creeperfearInRange:\"yes\"}}"
+                }
+              }
+            },
+            "entity": "this"
+          }
+        ],
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "spyglass_at_dragon"
+    ]
+  ]
+}

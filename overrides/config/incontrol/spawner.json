@@ -1,0 +1,1043 @@
+[
+    {
+        "mob": "fossil:alligator_gar",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "inwater": true,
+            "mindist": 24,
+            "maxdist": 96,
+            "maxthis": 4
+        }
+    },
+    {
+        "mob": "fossil:allosaurus",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 4,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:ankylosaurus",
+        "persecond": 0.15,
+        "attempts": 1,
+        "amount": {
+            "minimum": 1,
+            "maximum": 6
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 6,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:aquilolamna",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "inwater": true,
+            "mindist": 24,
+            "maxdist": 96,
+            "maxthis": 4
+        }
+    },
+    {
+        "mob": "fossil:arthropleura",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "validspawn": true,
+            "mindist": 24,
+            "maxdist": 96,
+            "minheight": 64,
+            "maxheight": 192,
+            "maxthis": 4
+        }
+    },
+    {
+        "mob": "fossil:brachiosaurus",
+        "persecond": 0.2,
+        "attempts": 1,
+        "amount": {
+            "minimum": 1,
+            "maximum": 6
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 20,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:ceratosaurus",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 4,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:citipati",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 4,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:coelacanth",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "inwater": true,
+            "mindist": 24,
+            "maxdist": 96,
+            "maxthis": 4
+        }
+    },
+    {
+        "mob": "fossil:compsognathus",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 4,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:confuciusornis",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 4,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:crassigyrinus",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "inwater": true,
+            "mindist": 24,
+            "maxdist": 96,
+            "maxthis": 4,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:deinonychus",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 4,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:dicranurus",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "inwater": true,
+            "mindist": 24,
+            "maxdist": 96,
+            "maxthis": 4
+        }
+    },
+    {
+        "mob": "fossil:dilophosaurus",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 4,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:dimetrodon",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 4,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:dimorphodon",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 4,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:diplocaulus",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "inwater": true,
+            "mindist": 24,
+            "maxdist": 96,
+            "maxthis": 4
+        }
+    },
+    {
+        "mob": "fossil:diplodocus",
+        "persecond": 0.2,
+        "attempts": 1,
+        "amount": {
+            "minimum": 1,
+            "maximum": 6
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 20,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:dodo",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 4,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:dryosaurus",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 4,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:edaphosaurus",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 4,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:elasmotherium",
+        "persecond": 0.15,
+        "attempts": 1,
+        "amount": {
+            "minimum": 1,
+            "maximum": 6
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 6,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:gallimimus",
+        "persecond": 0.15,
+        "attempts": 1,
+        "amount": {
+            "minimum": 1,
+            "maximum": 6
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 6,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:gastornis",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 4,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:henodus",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 4
+        }
+    },
+    {
+        "mob": "fossil:ichthyosaurus",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "inwater": true,
+            "mindist": 24,
+            "maxdist": 96,
+            "maxthis": 4
+        }
+    },
+    {
+        "mob": "fossil:kelenken",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 4,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:liopleurodon",
+        "persecond": 0.05,
+        "attempts": 4,
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "inwater": true,
+            "mindist": 24,
+            "maxdist": 96,
+            "maxthis": 1,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:lonchodomas",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "inwater": true,
+            "mindist": 24,
+            "maxdist": 96,
+            "maxthis": 4
+        }
+    },
+    {
+        "mob": "fossil:mammoth",
+        "persecond": 0.15,
+        "attempts": 1,
+        "amount": {
+            "minimum": 1,
+            "maximum": 6
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 6,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:megalania",
+        "persecond": 0.05,
+        "attempts": 4,
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 1,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:megaloceros",
+        "persecond": 0.15,
+        "attempts": 1,
+        "amount": {
+            "minimum": 1,
+            "maximum": 6
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 6,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:megalodon",
+        "persecond": 0.05,
+        "attempts": 4,
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "inwater": true,
+            "mindist": 24,
+            "maxdist": 96,
+            "maxthis": 1
+        }
+    },
+    {
+        "mob": "fossil:megalograptus",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "inwater": true,
+            "mindist": 24,
+            "maxdist": 96,
+            "maxthis": 4
+        }
+    },
+    {
+        "mob": "fossil:meganeura",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 4,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:mosasaurus",
+        "persecond": 0.05,
+        "attempts": 4,
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "inwater": true,
+            "mindist": 24,
+            "maxdist": 96,
+            "maxthis": 1
+        }
+    },
+    {
+        "mob": "fossil:nautilus",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "inwater": true,
+            "mindist": 24,
+            "maxdist": 96,
+            "maxthis": 4
+        }
+    },
+    {
+        "mob": "fossil:ornitholestes",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 4,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:pachycephalosaurus",
+        "persecond": 0.15,
+        "attempts": 1,
+        "amount": {
+            "minimum": 1,
+            "maximum": 6
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 6,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:pachyrhinosaurus",
+        "persecond": 0.15,
+        "attempts": 1,
+        "amount": {
+            "minimum": 1,
+            "maximum": 6
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 6,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:parasaurolophus",
+        "persecond": 0.15,
+        "attempts": 1,
+        "amount": {
+            "minimum": 1,
+            "maximum": 6
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 6,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:phorusrhacos",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 4,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:platybelodon",
+        "persecond": 0.15,
+        "attempts": 1,
+        "amount": {
+            "minimum": 1,
+            "maximum": 6
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 6,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:plesiosaurus",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "inwater": true,
+            "mindist": 24,
+            "maxdist": 96,
+            "maxthis": 4
+        }
+    },
+    {
+        "mob": "fossil:protoceratops",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 4,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:psittacosaurus",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 4,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:pteranodon",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 4,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:quagga",
+        "persecond": 0.15,
+        "attempts": 1,
+        "amount": {
+            "minimum": 1,
+            "maximum": 6
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 6,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:quetzalcoatlus",
+        "persecond": 0.05,
+        "attempts": 4,
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 1,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:sarcosuchus",
+        "persecond": 0.05,
+        "attempts": 4,
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 1,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:scotoharpes",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "inwater": true,
+            "mindist": 24,
+            "maxdist": 96,
+            "maxthis": 4,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:smilodon",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 4,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:stegosaurus",
+        "persecond": 0.15,
+        "attempts": 1,
+        "amount": {
+            "minimum": 1,
+            "maximum": 6
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 6,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:sturgeon",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "inwater": true,
+            "mindist": 24,
+            "maxdist": 96,
+            "maxthis": 4
+        }
+    },
+    {
+        "mob": "fossil:therizinosaurus",
+        "persecond": 0.15,
+        "attempts": 1,
+        "amount": {
+            "minimum": 1,
+            "maximum": 6
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 6,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:tiktaalik",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "inwater": true,
+            "mindist": 24,
+            "maxdist": 96,
+            "maxthis": 4
+        }
+    },
+    {
+        "mob": "fossil:titanis",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 4,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:triceratops",
+        "persecond": 0.2,
+        "attempts": 1,
+        "amount": {
+            "minimum": 1,
+            "maximum": 6
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 20,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:velociraptor",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 24,
+            "maxdist": 120,
+            "maxthis": 4,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    },
+    {
+        "mob": "fossil:walliserops",
+        "persecond": 0.1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 1,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "inwater": true,
+            "mindist": 24,
+            "maxdist": 96,
+            "maxthis": 4
+        }
+    },
+    {
+        "mob": "fossil:tyrannosaurus",
+        "persecond": 0.05,
+        "attempts": 1,
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 48,
+            "maxdist": 96,
+            "maxthis": 1,
+            "minheight": 64,
+            "maxheight": 192
+        }
+    }
+]

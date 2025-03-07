@@ -1,0 +1,19 @@
+{
+  "parent": "combat:infernal_weaponry",
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_sword"
+    },
+    "title": "Fleeting Blades",
+    "description": "Swords: swift, but laughably ineffective against dinosaurs.",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "combat:swift_ascendance",
+  "display": {
+    "icon": {
+      "item": "spartanweaponry:netherite_javelin"
+    },
+    "title": "Swift Dominion",
+    "description": "Haste III: 1000 strikes crown your mastery with unrivaled speed.",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "haste3": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:haste": {
+            "amplifier": 2
+          }
+        }
+      }
+    }
+  }
+}

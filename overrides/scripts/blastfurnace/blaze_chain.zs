@@ -1,0 +1,1 @@
+blastFurnace.addRecipe("blaze_chain",<item:minecraft:blaze_rod>,<item:minecraft:chain>,1, 10);

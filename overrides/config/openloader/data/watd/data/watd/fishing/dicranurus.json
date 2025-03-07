@@ -1,0 +1,8 @@
+{
+    "input": {
+        "item": "fossil:meat_dicranurus"
+    },
+    "result": {
+        "id": "fossil:dicranurus"
+    }
+}

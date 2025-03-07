@@ -1,0 +1,34 @@
+{
+    "parent": "watd:warm_ocean",
+    "display": {
+        "icon": {
+            "item": "kubejs:coelacanth"
+        },
+        "title": "Reeled in a Coelacanth",
+        "description": "Fossil dwells in warm ocean shadows.",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "coelacanth": {
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "fossil:meat_coelacanth"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "coelacanth"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    }
+}

@@ -1,0 +1,37 @@
+{
+  "parent": "fossil:fossil/dino_eggs",
+  "display": {
+    "icon": {
+      "item": "fossil:dinopedia"
+    },
+    "title": {
+      "translate": "advancements.fossil.dinopedia.title"
+    },
+    "description": {
+      "translate": "advancements.fossil.dinopedia.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dinopedia": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fossil:dinopedia"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dinopedia"
+    ]
+  ]
+}

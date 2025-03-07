@@ -1,0 +1,12 @@
+
+[settings]
+	generate_ore = true
+	#Range: 1 ~ 64
+	quartzVeinSize = 14
+	#Range: 1 ~ 100
+	quartzVeinsPerChunk = 40
+	#Range: 0 ~ 254
+	quartzMinHeight = 0
+	#Range: 1 ~ 255
+	quartzMaxHeight = 255
+
