@@ -81,7 +81,7 @@ element {
 
 element {
   button_element_executable_block_identifier = d5ee92ce-d985-4448-9335-32d66e3474f2-1741182100627
-  [executable_action_instance:8b7c471d-865a-4782-bc8d-da3f0d841ff7-1741182413418][action_type:openlink] = https://www.curseforge.com/minecraft/modpacks/man-vs-wild-walking-among-the-dinosaurs
+  [executable_action_instance:8b7c471d-865a-4782-bc8d-da3f0d841ff7-1741182413418][action_type:openlink] = https://github.com/Sylsatra/Walking-Among-The-Dinosaur-WATD-Modpack
   [executable_block:d5ee92ce-d985-4448-9335-32d66e3474f2-1741182100627][type:generic] = [executables:8b7c471d-865a-4782-bc8d-da3f0d841ff7-1741182413418;]
   backgroundnormal = [source:local]/config/fancymenu/assets/realm.png
   backgroundhovered = [source:local]/config/fancymenu/assets/web.png
