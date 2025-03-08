@@ -1,190 +1,145 @@
-# Walking Among The Dinosaur Modpack (Forge 1.18.2)
+# 🦖 **Walking Among The Dinosaur Modpack (Forge 1.18.2)**  
 
-## Introduction  
-**Walking Among The Dinosaur** is a prehistoric survival modpack that thrusts you into a world teeming with ancient life. You’ll experience an *epic journey of survival in a wild and untamed world* – and here’s the twist: **you won’t be alone**. *You’ll be walking among the dinosaurs!*. This modpack emphasizes realistic survival mechanics and immersive dinosaur interactions, creating a challenging and atmospheric adventure.
+## **🌍 Introduction**  
+**Step back in time. Survive. Adapt. Walk among the dinosaurs.**  
 
-**Key Features:**  
-- **Prehistoric World:** Explore a land where dinosaurs and other ancient creatures roam free. There are **no modern villages or typical Minecraft structures** – you are truly in an untamed prehistoric era (even standard mobs and villagers are absent to preserve the wild atmosphere.  
-- **Realistic Survival Mechanics:** Manage additional survival needs like **thirst and body temperature**, along with a new **stamina system**. The environment itself is a threat – you’ll need to stay hydrated, avoid extreme temperatures, and rest appropriately. These systems add *“real-life realism merged into Minecraft”*, making every decision critical.  
-- **Overhauled Health System:** The modpack uses a **locational health** mechanic. Instead of one health bar, your body has individual parts that can be injured. For example, taking damage to your **head or torso can be deadly (if either drops to zero, you die) and limb injuries cause debuffs** (broken legs slow you down, arm injuries weaken your attacks, etc.) ([First Aid - Minecraft Mods - CurseForge](https://www.curseforge.com/minecraft/mc-mods/first-aid#:~:text=You%20will%20die%20as%20soon,can%20be%20supressed%20by%20morphine)). Healing requires bandages and time, so prioritizing protection (like wearing a helmet to guard your head) is vital.  
-- **Dinosaur Behavior & Interaction:** The dinosaurs aren’t just scenery – they behave dynamically. Some are docile unless provoked, while others are apex predators that will hunt you. You can encounter everything from towering herbivores grazing peacefully to packs of velociraptors stalking their prey. With effort, you might even **hatch or tame certain prehistoric creatures**, learning to coexist with them.  
-- **Primitive Progression:** Say goodbye to punching trees and instant wooden tools. You’ll start from scratch with **flint tools and basic resources**, mimicking a true stone-age experience. Early-game progression has been redesigned to be more realistic (for example, you must knapp flint to make blades, craft a flint hatchet to cut wood, etc.). Basic wooden and stone tools from vanilla are not craftable – you’ll use primitive equivalents until you advance ([HardRock Tools & Materials - Minecraft Mods - CurseForge](https://www.curseforge.com/minecraft/mc-mods/hardrock-tools-materials#:~:text=It%20was%20unrealistic%20for%20me,vanilla%20wooden%20and%20stone%20tools)).  
-- **Environmental Challenges:** Stamina and physics play a role in your journey. Sprinting everywhere will exhaust you, especially when carrying heavy gear. Temperature extremes can be deadly if you’re unprepared – blazing deserts and freezing taigas require appropriate clothing or shelter. The world features dynamic elements like **falling trees** and environmental weathering, so be mindful of your surroundings. There’s no “punching dirt and building a palace on day one” here – survival comes first.  
-- **Immersive Worldbuilding:** A rich sense of lore underpins the experience (see **Lore & Worldbuilding** below). From the moment you awake in this primeval world, the atmosphere, custom advancements, and in-game cues will guide your imagination about **why** you’re here and how humanity (that’s you!) fits into the Jurassic picture.
+Welcome to **Walking Among The Dinosaur (WATD)** – a prehistoric survival modpack that **thrusts you into a world untouched by civilization**. This isn't just another dinosaur modpack—this is a **hardcore survival experience** set in a land where **you** are the anomaly.  
 
-With these features, *Walking Among The Dinosaur* offers a truly unique survival experience – blending the thrill of **exploration and discovery** with the tension of **man vs. nature** on an epic scale. Prepare to step back in time and face the ultimate challenge of survival!
+Gone are the comforts of villages, enchanted gear, and instant survival tools. Instead, you’ll face:  
 
-## Installation Instructions  
+✅ **A Living Prehistoric World:** A fully **immersive ecosystem** where dinosaurs roam freely.   
+✅ **Harsh Survival Mechanics:** **Hunger, thirst, body temperature, stamina, and injuries** all play a role in your survival.  
+✅ **Realistic Progression:** No punching trees—start from **primitive flint tools** and work your way up like an early human.  
+✅ **Dynamic Dinosaur AI:** Some creatures are peaceful, while others will **hunt you down relentlessly**.  
+✅ **No Vanilla Mobs:** **There are no villages, villagers, or passive animals**—only prehistoric creatures and the dangers of nature.  
+✅ **Unique Mechanics:** Overhauled **combat, movement, and crafting**—with **custom stamina, exhaustion, temperature, and advanced first-aid mechanics**.  
 
-You can install the modpack either manually (using a Minecraft launcher of your choice) or via the convenient CurseForge or Modrinth Launcher. Before starting, ensure you have Minecraft 1.18.2 installed and Java 17 configured (Minecraft 1.18 requires Java 17). It’s also recommended to allocate at least 8-10 GB of RAM to Minecraft due to the large number of mods and the world generation complexity.
+Whether you choose to **survive as a lone wanderer**, **tame and raise prehistoric creatures**, or **carve your own legend into the fossil record**, one thing is certain: **you are not at the top of the food chain.**  
 
-### Option 1: Manual Installation (Forge)
+🌿 **How long can you survive in this land before becoming history?**  
 
-Install Forge 1.18.2: Download the Forge 1.18.2 installer from the official Forge site and run it. This will create a Forge profile in your Minecraft launcher. Make sure to launch Minecraft with the Forge 1.18.2 profile at least once to generate the needed folders.
-Download the Modpack: Obtain the WalkingAmongTheDinosaur-1.18.2.zip modpack file (or .mrpack file) from the official source. 
-Add Mods to Minecraft: If you have a .mrpack (Modrinth pack format), you can import it directly in many launchers (like Prism Launcher or MultiMC) by selecting “Import from ZIP/Modrinth”. This will automatically install all mods and config files. Alternatively, if you have a zip with a manifest or mods folder:
-Open your Minecraft directory (.minecraft for the default launcher, or the instance folder for MultiMC/CurseForge launcher).
-Copy the contents of the modpack’s mods folder into your Minecraft mods folder. Also copy any config, kubejs, or resourcepacks folders from the pack into the corresponding locations (these contain important tweaks and assets).
-Run Minecraft: Start the Minecraft launcher with the Forge 1.18.2 profile. Select the Walking Among The Dinosaur modpack instance if you created one. Launch the game. The first load may be slow as it sets up config files.
-Confirm Installation: Once at the main menu, you should see the modpack’s name or a custom title screen. You can also go to Mods and verify a long list of mods (dinosaurs, survival mods, etc.) are present. If everything looks good, you’re ready to play!
+---
 
+# **🛠️ Installation Guide**  
+You can install the modpack **manually** or through **CurseForge / Modrinth Launcher**.
 
+## **Option 1: Manual Installation (Forge)**  
+1️⃣ **Install Forge 1.18.2:** Download and install **Forge 1.18.2** from the official site. Run Minecraft **at least once** with Forge before proceeding.  
+2️⃣ **Download the Modpack:** Get the latest **Walking Among The Dinosaur** modpack ZIP from CurseForge or Modrinth.  
+3️⃣ **Add Mods & Configs:**  
+   - If you have a `.mrpack` file → Import it via **Prism Launcher or MultiMC**.  
+   - If you have a standard ZIP → Extract it and place the contents into your `.minecraft` folder.  
+4️⃣ **Launch the Game:** Select the **Forge 1.18.2 profile**, start Minecraft, and **prepare for survival**.
 
-### Option 2: CurseForge/ Modrinth Launcher Installation
+## **Option 2: CurseForge / Modrinth Launcher (Easy Method)**
+1️⃣ **Install CurseForge or Modrinth Launcher.**  
+2️⃣ **Search for "Walking Among The Dinosaur".**  
+3️⃣ **Click "Install".** The launcher will download all necessary files automatically.  
+4️⃣ **Launch & Play!** 🦖  
 
-Install the App: If you don’t have it, download the CurseForge or Modrinth App. This app streamlines modpack installation.
-Search for the Modpack: Open the App and use the search bar to find "Walking Among The Dinosaur". You should see the modpack in the search results (make sure the version is Forge 1.18.2).
-Install with One Click: Click the Install button on the modpack’s page. The app will automatically download all required mods, Forge, and set up an instance for you.
-Launch the Game: In the App, go to your instances or packs, find Walking Among The Dinosaur, and hit Play. This will launch Minecraft with everything configured.
-(Optional) Updates: The App will also notify you of modpack updates. You can update to the latest version of the pack easily through the app when a new release is available.
+📌 **System Requirements:**  
+- **Minecraft Version:** 1.18.2 (Forge)  
+- **Java Version:** Java 17 (Required for 1.18.2)  
+- **RAM Allocation:** **8-10GB recommended** for smooth performance  
 
-### Dependencies & Configuration:
+---
 
-No additional mods are required beyond the pack contents. However, enable the bundled resource packs if prompted on first load (some modpacks include custom resource packs for the best experience).
-Only use a shader that is compatible with the distant horizon mod. You can find them here!
-Optimize Settings: Given the world generation mods, it’s recommended to pre-generate or use the included performance mods. The pack is already optimized with performance mods (like Oculus, etc.), but you can lower settings if needed. Ensure that if using shaders with Oculus.
-Server Setup: To set up a server, install Forge 1.18.2 on the server and copy the modpack’s mods & config folders to the server directory. Remove any client-only mods (such as voice chat or map UI mods) as needed. More detailed server instructions might be provided in the wiki if included.
+# **🎮 Gameplay Overview**  
 
-After installation, you’re all set. Launch the game and dive into the prehistoric world!
+## **🌿 Getting Started - Your First Day**  
+When you first spawn, you’ll notice something **very different**:  
+- There are **no villages, no cows, no pigs, no zombies**—only **untamed prehistoric nature**.  
+- **Punching trees? Forget it.** Your **bare hands are useless**—you must start with **flint tools**.  
+- **Water is undrinkable** unless purified. You’ll need **bottles or a filtration method** to stay hydrated.  
+- **Nightfall is deadly.** Without fire or shelter, the **cold will sap your strength**, and predators will hunt in the darkness.  
 
-## Gameplay Guide  
+### **🛠️ First Steps:**
+✅ **Find Gravel** → Get Flint → Knapp Flint on Stone → Craft a **Flint Knife**.  
+✅ **Gather Plant Fiber** → Craft **Plant String** → Craft a **Flint Hatchet**.  
+✅ **Cut Trees** → Make a **Crafting Table** → Start your **primitive survival journey**.  
 
-### Getting Started – Early Game Survival  
-When you first spawn into the world, you’ll quickly notice this isn’t vanilla Minecraft. **Punching trees** yields nothing, and you’re surrounded by strange ferns, tall grasses, and distant dinosaur calls. Your first objective is to secure basic tools and shelter **without** the luxury of normal wood tools.
+📌 **Early Game Tips:**
+🔥 **Fire is essential.** A **campfire** provides warmth, light, and water purification.  
+🥶 **Cold can kill you.** Craft **fur armor** before venturing into snowy biomes.  
+🏃 **Stamina matters.** Sprinting drains stamina—**rest frequently** or risk exhaustion.  
+🥩 **Hunt carefully.** Not every creature is friendly—**some will fight back**.  
 
-**1. Stone Age Tools (Hard Rock & Tools):** Look for **gravel** on riverbanks or cave entrances and break it to get flint. In this modpack, flint is your best friend at the start. Find a hard surface (exposed stone) and **right-click or use flint on the stone to knapp it into flint shards**. With flint shards in hand, break some tall grass or ferns – they will drop **plant fibers**. Craft plant fibers into plant string (3 fibers) or use the fibers directly. Now craft a **Flint Knife** (typically 1 flint shard + 1 stick, shapeless). Use this knife to **harvest more plant fibers** from grass much faster, and craft those into **Plant String** (a primitive string). With plant string, a flint shard, and a stick, you can craft a **Flint Hatchet** (the exact recipe is one flint shard, one plant string, and one stick in a diagonal pattern. This hatchet is crucial – it’s slow and not very durable, but it allows you to **cut down your first tree**. Sticks can be obtained by breaking leaves or picking up fallen branches (you may find sticks on the ground or get them from leaf decay).  
+---
 
-**2. Getting Wood & Crafting Table:** Using the Flint Hatchet, chop a tree. (Be cautious; chopping the base of a tree will cause the whole tree to fall!). Collect logs. Now you can make a crafting table: craft wooden planks from logs as usual (the hatchet allows you to hew planks). Try crafting logs + your hatchet in the 2x2 grid to get planks. Place your **Crafting Table** – this is a major milestone. With a crafting table, you can craft a **Stone Hammer** using stone and sticks (instead of a pickaxe). The HardRock tools mod replaces the normal pickaxe: you’ll need a stone hammer (two stones and a stick, for example) to mine stone effectively ([HardRock Tools & Materials - Minecraft Mods - CurseForge](https://www.curseforge.com/minecraft/mc-mods/hardrock-tools-materials#:~:text=It%20was%20unrealistic%20for%20me,vanilla%20wooden%20and%20stone%20tools)). The stone hammer can break rocks and ores but cannot mine as deep or fast as a pickaxe; iron tools will come later.
+## **🦖 Dinosaurs & Wildlife**  
 
-**3. Shelter and Fire:** As evening approaches, you’ll want shelter. Use your hatchet or hammer to dig into a hillside or pile up some logs as makeshift walls. The world gets dangerous at night – not only might predators become more active, but it also gets colder. **Temperature** is a factor now. If you’re in a cold biome, nightfall can bring freezing temperatures that inflict hypothermia. Craft a **campfire** and light it for warmth and light. Campfires will also allow you to **purify water and cook basic food**. 
+### **📍 Where Dinosaurs Spawn**  
+Each biome has **unique prehistoric creatures** that behave dynamically:  
 
-**4. Thirst and Water:** You’ll notice a **thirst bar** (water droplets icon) on your HUD. Just like hunger, it will drop as time passes (faster if you sprint or if you’re in hot biomes). You **cannot drink directly from oceans or rivers safely** – doing so might make you sick with thirst or poison effects. Water has different purity levels in this modpack. If you drink **unclean water**, there’s a chance you’ll get sick or poisoned ([Thirst Was Taken - Minecraft Mod](https://modrinth.com/mod/thirst-was-taken#:~:text=If%20you%20drink%20non,get%20sick%2C%20or%20worse%2C%20poisoned)). Early on, craft a **water pouch** or simply use glass bottles: fill a bottle from a river, then **purify it** by boiling. You can boil water by placing the filled bottle into a campfire or furnace. *“Water can be purified on a campfire or a furnace”* to improve its purity ([Thirst Was Taken - Minecraft Mod](https://modrinth.com/mod/thirst-was-taken#:~:text=Water%20can%20be%20purified%20on,Dirty%20to%20Acceptable%2C%20for%20instance)). Two rounds of boiling might be needed for the safest water. Always keep an eye on your thirst meter and carry some water when exploring. Dehydration will set in if you neglect this (you’ll suffer slowness and eventual damage). Also note that hot climates make you thirsty faster, whereas being in a cool shaded area conserves water ([Thirst Was Taken - Minecraft Mod](https://modrinth.com/mod/thirst-was-taken#:~:text=The%20hydration%20depletion%20speed%20is,is%20present%20in%20the%20pack)) (the thirst mod integrates with the temperature system).
+🌊 **Oceans & Rivers:** Coelacanth, Nautilus, Sturgeon, Mosasaurus (deep water).  
+🌳 **Jungles:** Brachiosaurus, Velociraptor, Gallimimus, Therizinosaurus.  
+🏜️ **Deserts:** Spinosaurus, Pteranodon, Quetzalcoatlus.  
+🏔️ **Snowy Biomes:** Mammoth, Smilodon, Megaloceros.  
+🦴 **Caves & Underground:** Arthropleura, Meganeura, Diplocaulus.  
 
-**5. Food and Hunting:** Food is scarcer and less nutritious than in vanilla. Early on, forage for berries, mushrooms, or animal carcasses. You might craft a **spear** or **javelin** to go fishing or hunting. Spears/javelins can be thrown to damage prey from a distance – useful for hunting small dinosaurs or fish. Be cautious: attacking a prehistoric creature might provoke it. Many herbivores will flee, but some can fight back (a cornered Triceratops is no joke). Carnivores will definitely fight back and may outrun you. **Plan your hunts carefully** – or better, set traps. IN the **Trapcraft** mod, you can dig pits and place spikes to catch unwary beasts. Cook meat on the campfire for better hunger restoration. Remember, raw meat might cause food poisoning in this realistic setting.
+---
 
-**6. Health and Healing:** Combat is much more dangerous now because of the First Aid mod’s locational damage. Always check your health UI – if any body part (especially head or body) is low (flashing red), you need to heal that part. Craft **bandages or plaster** early: typically bandages are made from wool or plant cloth and string, while plasters might use paper. Use a bandage (right-click while holding it) to slowly heal a specific injured part. Severe injuries give debuffs (if your **feet** are hurt, you’ll move slowly; if your **arms** are hurt, mining and fighting are much slower; a head injury can blur your vision ([First Aid - Minecraft Mods - CurseForge](https://www.curseforge.com/minecraft/mc-mods/first-aid#:~:text=You%20will%20die%20as%20soon,can%20be%20supressed%20by%20morphine))). There is **no natural health regeneration** in this pack (by default), or it’s greatly reduced. Healing items like bandages, medkits (to suppress pain effects ([First Aid - Minecraft Mods - CurseForge](https://www.curseforge.com/minecraft/mc-mods/first-aid#:~:text=You%20will%20die%20as%20soon,can%20be%20supressed%20by%20morphine))) are lifesavers. Get in the habit of retreating to safety after fights to bandage up. Also consider crafting a **First Aid Kit** later for emergency full heals.
+## **⚔️ Combat & Weapon Mastery**  
+**Forget vanilla swords**—this modpack **overhauls combat** with **Spartan Weaponry & Stamina Mechanics**.  
 
-**7. Stamina and Exhaustion:** Notice the row of **blue feather icons** above your hunger bar? That’s the **stamina bar** (provided by the *Feathers* stamina mod). Performing actions like sprinting, jumping repeatedly, or swinging heavy weapons will deplete stamina feathers. If you wear heavy armor, your maximum stamina might be reduced (armor has weight). Manage your stamina – if you exhaust it, you’ll become sluggish and unable to perform strong attacks until you recover. Resting (standing still) or drinking certain tonics can restore stamina. **Tip:** Overheating will drain your stamina faster. If you’re running in the heat of high noon, your body will overheat and you’ll tire out quickly. Plan travels during cooler times or stick to shade to avoid this. The modpack’s scripts even tie temperature to stamina – *for example, sprinting while your body temperature is above 38°C will automatically consume extra stamina*. So, avoid running in full sun with heavy gear; travel smart to conserve energy.
+### **🛠️ Weapon Proficiency System**
+🔹 **The more you use a weapon, the stronger you become with it!**  
 
-**8. Temperature and Weather:** The world’s climate is varied and can be harsh. **Cold Sweat** (the temperature mod) adds a dynamic temperature system where many factors (biome, time of day, weather, nearby heat sources, etc.) affect you ([Cold Sweat - Minecraft Mods - CurseForge](https://www.curseforge.com/minecraft/mc-mods/cold-sweat/description#:~:text=Cold%20Sweat%20is%20a%20highly,nowhere%2C%20there%27s%20no%20second%20chance)). If you’re in a **snowy mountain at night**, you will start freezing – your screen may show frost, and you’ll take damage over time. To combat cold, do one or more of: wear warm clothing (e.g., **fur armor** made from animal pelts), stay near heat (campfires, torches, lava), or drink a warm beverage. In the modpack, you can craft **fur armor**– for example, using wool or fur from animals (mammoths, etc.) to make a coat that insulates you. On the flip side, in a **scorching desert or jungle**, you risk overheating. Cool off by staying in water for a short time, seeking shade, or wearing lighter armor. Being wet (swimming in a river) will cool you, which is good in a desert but dangerous in the arctic. Always pay attention to the temperature gauge/HUD: if you see a snowflake or sweat drop icon, take action. *Dealing with extreme conditions is manageable with preparation, but if you get stranded without gear, there’s no second chance!* ([Cold Sweat - Minecraft Mods - CurseForge](https://www.curseforge.com/minecraft/mc-mods/cold-sweat/description#:~:text=Cold%20Sweat%20is%20a%20highly,nowhere%2C%20there%27s%20no%20second%20chance)) Meaning, always pack a way to make fire and some water when you explore far.
+✅ **Axes & Blunt Weapons (Strength Buffs):** More power with heavy weapons.  
+✅ **Daggers & Javelins (Speed Buffs):** Faster attack speed & mobility.  
+✅ **Spears & Polearms (Haste Buffs):** Increased reach & faster recovery.  
 
-**9. Dealing with Dinosaurs:** As you venture out, you’ll encounter many types of prehistoric creatures. **Herbivores** (like Triceratops, Stegosaurus, Brachiosaurus) are generally passive. They won’t attack unless you attack them first (or sometimes if you get too close to a parent’s offspring). However, if provoked, they can be very dangerous. For example, a Triceratops can charge and gore you, doing heavy damage. It’s often best to observe and give large beasts a respectful distance. **Carnivores** are the real threat. Small ones like Compsognathus might nip at you in groups. Medium ones like **Dilophosaurus** might ambush you. Large carnivores such as **Tyrannosaurus rex** or **Spinosaurus** are apex predators – if one spots you, you likely either hide or run if you’re unprepared. In the early game, you *cannot* fight a T. rex head-on. If you hear earth-shaking footsteps or a roar that sounds very close, it might be wise to sneak away or build pillars up high (though some dinos can still reach). **Use your environment:** duck into dense forest or climb rocks; big predators have trouble in tight spaces. You could also use distraction – throw some meat on the ground or lure the predator toward other prey. Remember, dinosaurs also interact with each other; a hungry carnivore may choose an easier meal (like a nearby herbivore) over you. Carry a **Spyglass** or use the environment to scout far ahead; knowing where the big threats are will help you navigate safely.
+🎯 **Each weapon type has unique strengths**—choose your **fighting style** wisely.
 
-**10. Progression and Next Steps:** Once you’ve survived the first few days with basic shelter, water, and food, aim to upgrade your gear. Progression in this pack may follow a tech-timeline: from flint to stone to iron and beyond. Iron will allow you to craft better weapons (like a machete or sabre) and armor. **Mining**: Use your Stone Hammer to gather cobblestone and coal. Craft a furnace to cook food and smelt ores. Be aware that ore spawning might be different. Enchanting Table is removed from the game, all minecraft potions are removed, replaced with modded oil to coat your weapons. 
+---
 
-Keep track of **Advancements** as you progress. The pack includes a custom advancement tree to guide you. You might see advancements for milestones like crafting your first flint tool, purifying water, slaying a predator, etc. Use these as goals to learn the pack’s content. (See the **Advancements** section below for more details.)
+## **🔥 Survival Mechanics & Realism Overhaul**  
 
-Surviving in *Walking Among The Dinosaur* requires patience and adaptability. Each day survived is an achievement. As you get better equipment and perhaps even **befriend some dinosaurs** (yes, you may eventually tame or raise some species from eggs!), the tides slowly turn. But even in late game, a careless moment – like wandering unprotected into a frozen night or challenging a T. rex without a plan – can end in disaster. **Play smart, use your knowledge of the mechanics, and you will thrive in this primeval world.** Good luck, survivor!
+### **💀 No Vanilla Healing – First Aid Required**
+- **Injury System:** **Damage affects individual body parts** (head, arms, legs).  
+- **Broken limbs cause debuffs**—**head injuries blur vision, leg injuries slow movement**.  
+- **Bandages & splints required** for healing—**natural regeneration is disabled**.  
 
-## Crafting & Mechanics  
+### **🌡️ Temperature System**
+- **Cold biomes = Hypothermia** (requires fur armor or heat sources).  
+- **Hot biomes = Heatstroke** (requires water & shade).  
+- **Dynamic Weather Effects:** Rain **lowers body temperature**, deserts **increase thirst.**  
 
-This modpack significantly alters crafting and game mechanics to create a more realistic progression. Below is a summary of important crafting changes, new recipes, and removed vanilla features you should be aware of:
+### **⚡ Stamina & Exhaustion**
+- Sprinting, attacking, and climbing **consume stamina**.  
+- Carrying **heavy gear reduces stamina regen**—travel light!  
+- **Exhaustion can cause collapse**—manage your energy wisely.  
 
-- **No Punching Trees – Flint Tool Progression:** In the early game you **cannot obtain wood by hand**. Punching logs or stones yields nothing (they’re effectively invulnerable without proper tools). Instead, you must craft flint tools as described above. Key new recipes introduced (via the Hard Rock Tools / “No Tree Punching” style mechanics) include:  
-  - **Flint Shards:** Obtained by knapping flint on a hard surface. Hold a flint and right-click on stone to break it into shards.  
-  - **Flint Knife:** Craft with 1 flint shard + 1 stick (shapeless). Used to cut plants for fiber.  
-  - **Plant String:** 3 plant fibers (from grass) in a line. Functions as early string.  
-  - **Flint Hatchet (Axe):** 1 flint shard + 1 plant string + 1 stick. This replaces the wooden axe; use it to chop trees and get logs.  
-  - **Flint Pickaxe:** *Removed.* (You must jump to a Stone-level tool next; see Stone Hammer.)  
-  - **Stone Hammer:** 2 rocks (or cobblestone) + 1 stick (shapeless or a specific pattern). This tool acts as your first pickaxe, able to mine stone and ores but at slow speed ([HardRock Tools & Materials - Minecraft Mods - CurseForge](https://www.curseforge.com/minecraft/mc-mods/hardrock-tools-materials#:~:text=It%20was%20unrealistic%20for%20me,vanilla%20wooden%20and%20stone%20tools)). It has limited uses. Use it to gather enough iron/copper to then make real metal tools.  
+---
 
-  These changes mean **wooden pickaxes or wooden swords are uncraftable** – the recipes are removed or yield nothing ([HardRock Tools & Materials - Minecraft Mods - CurseForge](https://www.curseforge.com/minecraft/mc-mods/hardrock-tools-materials#:~:text=It%20was%20unrealistic%20for%20me,vanilla%20wooden%20and%20stone%20tools)). You must follow the more realistic tool progression. The game essentially *“blocks some vanilla wooden and stone tools”* forcing you to use flint hatchet and stone hammer instead ([HardRock Tools & Materials - Minecraft Mods - CurseForge](https://www.curseforge.com/minecraft/mc-mods/hardrock-tools-materials#:~:text=It%20was%20unrealistic%20for%20me,vanilla%20wooden%20and%20stone%20tools)). 
+# **🦴 Bosses & Apex Predators**
+Not all creatures are passive—**some are pure killing machines.**  
 
-- **Removed/Modified Vanilla Recipes:** Aside from wooden tools, a number of vanilla recipes have been disabled or altered to fit the primitive survival theme and the lack of Nether/End dimensions. Notable changes:  
-  - **Bed Recipe:** The recipe for a bed is unchanged, but consider that sleeping mechanics are different (see **Sleeping Overhaul** below). It’s possible a sleeping bag or camp roll is used instead of a vanilla bed. Check JEI for a “straw bed” or similar if regular beds aren’t craftable.  
-  - **Furnace:** The furnace recipe is likely still the same, as it’s essential for progression. However, **campfires** are more useful and cheap, so you might delay furnace until you have a base.  
-  - **Brewing Stand:** Yhe **Brewing Stand** recipe has been changed. It requires a lighting rod instead of Blaze Rod, which obtained by blasting chain in a blast furnace
-  - **Nether Portal & End Portal:** As per design, **Nether and End dimensions are removed** . You cannot craft or ignite a Nether portal (obsidian is useful to build up stamina). Eyes of Ender and End Portal Frames are irrelevant (and possibly not obtainable at all). Certain items normally from those dimensions have alternative sources: e.g., **Nether Quartz** spawns as an overworld ore.
+### **🦖 Tyrannosaurus Rex**
+- **Savanna & Plains Biomes**  
+- **Creeper Fear Ability:** All mobs flee in terror when it attacks.  
+- **One of the deadliest creatures in the game.**  
 
-- **New Items & Crafting Mechanics:**  
-  - **Advanced Weapons:** The modpack features **Spartan Weaponry**. This means you can craft a variety of weapons beyond the vanilla sword: knives, spears, **javelins**, warhammers, bows, crossbows. For instance, a **spear** might be crafted with a flint shard (or iron ingot later) on a long stick (maybe 2 sticks in line). **Javelins** can often be crafted similarly to arrows but yield throwable spears. Experiment with Spartan Weaponry recipes (they typically follow a pattern: a sword = handle + material + material; a halberd = axe head + spear, etc., and JEI will list them). These weapons give you flexibility in combat style. For example, a **knife** is very fast and good for quick hits (or even throwing) but low damage, whereas a **pike** has long reach to hit dinosaurs from a safer distance. Shields from Spartan Shields can also be crafted using wood/leather or iron – very useful against charging dinos or projectiles.  
-  - **First Aid Supplies:** New recipes exist for medical items: **Bandage** (1 wool + 1 string), **Plaster** (1 paper + 1 string), **Splint** (sticks + string for broken legs). Craft a few bandages as soon as you have wool or cotton.
-  - **Fossil Revival Machinery:** Removed all machines because dinosaurs roam the world.
-- **World Generation & Resources:** The world gen in this pack is enhanced by mods like **Terralith** (which adds spectacular terrain and biomes). Expect to see realistic biomes that could affect resource gathering. For example, flint might be more common in certain gravelly biomes, certain plants for medicine grow only in specific biomes, etc. **No Villages/Structures:** As noted, normal villages and structures are turned off. This means **no easy loot chests** from blacksmiths or temples.
+### **🦅 Quetzalcoatlus**
+- **Desert & Badlands Biomes**  
+- **Massive aerial predator**—flies above and swoops down on prey.  
 
-Overall, **crafting in Walking Among The Dinosaur requires experimentation and paying attention to in-game documentation**. Use **JEI (Just Enough Items)** to your advantage: search for “(No Recipe)” or items you think you should make to see if there’s a custom recipe. Many of the modded systems (flint tools, fossil revival, etc.) have in-game books or tooltips as well. Always read the mod tutorial books (many mods like First Aid or Cold Sweat provide a manual accessible via the “?” button or an item).
+### **🦈 Mosasaurus**
+- **Deep Ocean Biomes**  
+- **Fastest underwater predator**—can kill players in seconds.  
 
-By mastering flint knapping, primitive crafting, and utilizing new items like **plant rope, fur armor**, you’ll gradually move from surviving to thriving. The feeling of crafting your first iron weapon or successfully incubating a dinosaur egg using these systems is incredibly rewarding. Adapt and overcome!
+---
 
-## Advancements  
+## **🛠️ Modded Mechanics & Immersion**
+✅ **Armor Scaling System:** Armor degrades dynamically—**high-damage attacks weaken it.**  
+✅ **Sound-Based AI:** Predators react to **doors opening, blocks breaking, and footsteps**.  
+✅ **Fire Fear Mechanic:** Some creatures **flee from fire & torches**.  
+✅ **No Villages or Modern Structures:** You’re **alone in a truly prehistoric world**.  
 
-Advancements (Minecraft’s achievement system) in this modpack serve as a loose guide and a chronicle of your journey. While *Walking Among The Dinosaur* does not have a conventional quest book, it features **custom advancements** and progression milestones that will help you track your objectives and celebrate important feats. Here we’ll outline some advancement categories and give hints on how to unlock them:
+---
 
-**How to Use Advancements:** Open your Advancements menu in-game (`L` key by default or via the pause menu). You’ll see several tabs, one for each theme or mod. Look through them periodically. 
+# **🚀 Ready to Begin?**
+💾 **Download Walking Among The Dinosaur now!**  
+⚔️ **Survive, adapt, and reclaim your place in history.**  
 
-In summary, keep an eye on advancements as a guiding hand. They’ll ensure you experience all major aspects of the modpack. If you manage to complete most or all of them, congratulations – you’ve essentially “won” the prehistoric survival challenge and seen everything from the humble beginnings to mastering life among dinosaurs.
-
-
-## Lore & Worldbuilding  
-
-*You awaken disoriented on a bed of ferns, the dawn light filtering through colossal tree ferns and cycads. In the distance, a primordial jungle stretches out before you, filled with unfamiliar sounds – the haunting cry of a pterosaur riding the morning thermals and the distant bellow of a giant sauropod.* 
-
-There are **no signs of civilization** – no roads, no villages, not even a broken Nether portal. This world is **untouched by human hands**, a canvas of raw nature and ancient life. It’s as if you’ve fallen through time or into an alternate Earth where humans never became the dominant species. The **only footprints on the soil are those of reptiles with thunderous steps**. You are truly alone in a land that does not recognize you at the top of the food chain.
-
-As the reality sinks in, **emotion washes over you**. First, awe: towering above the treetops, you catch a glimpse of a **Brachiosaurus** moving with slow grace, its long neck silhouetted against the sunrise. You feel a childlike wonder seeing a living giant you only knew from textbooks. But that wonder is quickly tempered by a stab of fear when you hear a low growl behind you – in the shadows, two golden eyes watch your every move. A **raptor** – curious, or sizing you up for breakfast? Your heart pounds. Here, *you* are the odd creature out, possibly prey. 
-
-**Why are you here?** Perhaps you were a scientist, testing a prototype time-travel device or cryogenic chamber that malfunctioned. Maybe you washed ashore from a metaphysical storm that tore you from your world. Or maybe this **is** your world – but an ancient curse or scientific experiment caused the realm to regress to a Mesozoic era. The modpack intentionally leaves this mystery open, allowing you to craft your own backstory. Scattered across the land you might find **hints of lore**: an **abandoned journal** in a ruined camp that speaks of others who came before, or cave paintings depicting humans and dinosaurs coexisting. These clues tug at the central question: *are you the first, or just the latest, to walk among these dinosaurs?*
-
-One thing is certain: **you must adapt**. The first nights are the hardest. Imagine huddling in a cave as darkness falls, the sounds of the jungle amplifying your loneliness. You keep your campfire low, hearing the guttural snarls of something massive outside. A part of you wants to cry out from isolation and exhaustion, but you grit your teeth and persevere. In the flickering firelight, you carve simple tools from flint and bone, each scrape a defiant act of will to survive. These tools, primitive as they are, are your lifeline – a reminder that ingenuity can conquer even 65-million-year-old problems.
-
-**Emotion and immersion** drive the lore of this world. Over time, fear gives way to respect. You learn the patterns of the creatures. The frantic terror you felt upon first hearing a T. rex roar becomes a focused determination to avoid its territory or confront it on your terms. You start to feel a kinship with the land. The **role of “lonely survivor” evolves into “resourceful pioneer.”** Perhaps you even take on a guardian role for the gentle giants nearby – saving a baby triceratops from a pack of starving dilophosaurs. In that moment, as the mother trumpets her thanks, you realize *you* have become part of this ecosystem, an unwritten chapter in its ancient story.
-
-The environment itself tells stories. Moving through a misty swamp at dawn, you stumble upon a half-sunk stone structure. Vines strangle its crumbling pillars; inside, faded mosaics depict people venerating a great feathered serpent. Could humans have been here ages past, leaving only these silent relics? Or is it the work of some intelligent dinosaur species? The **worldbuilding is subtle yet rich** – if you pay attention, every fossil, every strange ruin, even the distribution of species by biome (finding ancient Permian creatures in one region and Cretaceous in another) all weave together a narrative of Earth’s eons and perhaps a guiding hand behind this “park” of time.
-
-Your own actions contribute to the lore. When you successfully hatch a dinosaur from a DNA sample, you essentially bridge an eon – it’s a profound moment, giving life to something extinct. Do you do this out of scientific responsibility, curiosity, or the hope of companionship in this lonely world? The modpack’s narrative adapts to your perspective. Some players may become benevolent naturalists – **curating a sanctuary** where herbivores thrive and dangerous predators are kept at bay with barriers. Others might become hunters, seeking to dominate and **challenge the apex predators**, proving that mankind (even alone) can claim the throne as the most fearsome creature. The lore supports both paths: will you be a **caretaker of this Jurassic realm or its fiercest conqueror**?
-
-Throughout your journey, emotions run high: the **sheer terror** of fleeing through dense underbrush with a raptor on your heels; the **triumphant exhilaration** of standing atop a fallen predator, bruised but victorious; the **melancholy** of watching a peaceful dinosaur succumb to injury or starvation in the harsh cycles of nature, reminding you that this world, for all its beauty, is unforgiving. The modpack’s worldbuilding aims to make you *feel* these moments, not just play them.
-
-In the end, *Walking Among The Dinosaur* invites you to tell **your story** of survival. Perhaps you’ll discover a way back to modern times – maybe a series of late-game advancements leads to building a portal or signaling a rescue (that part is for you to find out). Or maybe, when all is said and done, you **choose to stay**. After overcoming every trial, you stand in the golden twilight on a high cliff, looking over a valley where dinosaurs roam free, a valley that **you helped shape** – and you feel not like an outsider, but at home. In this moment, the title’s meaning truly sinks in: *Walking Among The Dinosaur* is not just physically doing so, but living among them as one of them, part of the tapestry of this ancient world.
-
-*(The lore is intentionally open-ended and emergent. Pay attention to in-game notes, environmental storytelling, and let your imagination fill in the blanks. The emotional journey from fear to mastery is the core narrative – your personal growth is the storyline that connects everything in this prehistoric saga.)*
-
-## Bug Reports & Contributions  
-
-Even in a carefully curated modpack, you may encounter bugs or issues. **Walking Among The Dinosaur** welcomes community feedback to improve the experience. Here’s how you can report problems and even contribute to the project’s development:
-
-**Reporting Bugs:**  
-If you find a bug (for example, a crafting recipe that doesn’t work, a dinosaur that behaves oddly, a mod conflict causing crashes, etc.), please report it through the modpack’s GitHub issue tracker. The developers actively monitor GitHub for issues.
-
-- **Step 1: Locate the GitHub Repository:** The modpack’s official GitHub can be found via the project page (look for a “Source” or “Issues” link on Modrinth or CurseForge, or use the link provided in the README if available). Navigate to the repository, and click on the “Issues” tab.  
-- **Step 2: Search Existing Issues:** Someone else might have already reported your bug. Use the search bar to see if your issue is mentioned (e.g., search “crash” or the name of the mod causing trouble). If you find a matching report, you can add any additional details you have as a comment rather than opening a new one.  
-- **Step 3: Open a New Issue:** If it’s a new bug, click “New Issue”. Provide a clear title and description. Include the following details:
-  - **Modpack Version:** Specify which version of the modpack you are using (e.g., v1.0.3 Beta). 
-  - **Describe the Bug:** Explain what happened and what you expected to happen. Be as specific as possible (e.g., “When using the Analyzer with a Confuciusornis DNA, the game crashes to desktop”). 
-  - **Steps to Reproduce:** List the steps leading up to the bug so the devs can recreate it. For example:
-    1. Place DNA into Analyzer.
-    2. Wait for process to complete.
-    3. Crash occurs at 100% progress.
-  - **Crash Reports/Logs:** If the game crashed or threw errors, attach the `latest.log` or crash report file (you can drag-and-drop it into the GitHub issue text field). This is extremely helpful. 
-  - **Screenshots:** If applicable, include a screenshot (for GUI bugs, visual glitches, etc.). On GitHub you can paste images directly into the issue. Ensure no sensitive info is in the screenshot. 
-  - **Additional Context:** Mention any other details – were you on singleplayer or a server? Did you add any mods or change configs from the default pack? The more info, the easier it is to diagnose.  
-- **Step 4: Submit and Monitor:** Submit the issue. A developer or community member might follow up with questions – GitHub will notify you if so. Provide any answers or test builds promptly. Once the issue is fixed in an update, the devs will typically close the issue with a note.
-
-**Contributing to the Project:**  
-Even though I made this alone, contributions are welcome! If you have ideas for improvements or want to help with development (like tweaking configs, adding quests/advancements, etc.), here are ways to contribute:
-
-- **Suggestions and Feedback:** If you have balance suggestions or feature requests (for example, “the desert feels empty, maybe add X mod” or “thirst drains a bit too fast”), you can open an issue on GitHub tagged as “Suggestion” or discuss it in the project’s Discord (if available). Thoughtful feedback is appreciated. The maintainers might not implement every suggestion, but they do consider player experience seriously. If you love the pack, leaving an endorsement or positive review on Modrinth/CurseForge also helps it gain traction.
-
-- **Contribute via GitHub (for tech-savvy):** The modpack’s configuration (datapacks, KubeJS scripts, etc.) might be stored in the GitHub repo. If you are comfortable with Git and have a fix:
-  - Fork the repository on GitHub to your account.
-  - Clone it and make your changes. For example, if you found that a recipe is too harsh, you could adjust the KubeJS script or data .json file responsible.
-  - Test your changes locally with the modpack to ensure your fix works and doesn’t break anything else.
-  - Commit your changes with clear messages and push them to your fork.
-  - Open a **Pull Request** on the original repo, describing what your change does and why it should be merged.
-  
-  Ensure your changes adhere to the project’s style. For example, if adding a new advancement or script, follow the format of existing ones. It’s also wise to discuss major changes in an issue first before spending effort on a PR, to see if the maintainers are receptive.
-
-- **Translating or Documenting:** If you’re not a coder, you might contribute by writing documentation or translating the pack to another language. For instance, providing a **translated README or wiki** in your language, or translating in-game custom texts (advancement descriptions, etc.) if the pack supports localization. You can submit these via GitHub or contact the devs.
-
-- **Testing and QA:** Another valuable way to contribute is by testing new versions. If the maintainers announce a beta or release candidate (perhaps in Discord or tagged pre-release on GitHub), you can try it and report any new bugs or issues *before* it goes public. This helps ensure stable releases.
-
-**Community Conduct:**  
-When reporting bugs or interacting with the project team, remember to be civil and patient. We’re all passionate about making the modpack great. If something frustrates you in-game, take a breath before writing an angry post. Constructive criticism will get things fixed much faster than rants. The authors have spent countless hours integrating mods and might even be dealing with limitations beyond their control (some issues might be from mods themselves). They appreciate polite, detailed reports.
-
-**Where to get help:**  
-For general help or gameplay questions (not necessarily bugs), post on the discussion tab on CurseForge. Other players or the me can give tips if you’re stuck (for example, if you can’t figure out a recipe or advancement, someone might gently nudge you in the right direction without spoiling too much). Just be sure to use spoiler tags or channels if discussing late-game content, so new players can discover the surprises on their own.
-
-Finally, **thank you for contributing**! Whether you’re reporting a bug or suggesting a tweak, you’re helping to improve *Walking Among The Dinosaur* for everyone. The project thrives on community input, and even a small fix (like correcting a recipe or grammar in an advancement text) can enhance the polish of the modpack. Together, the community and developers ensure that this prehistoric adventure remains as smooth and enjoyable as possible, even as new updates and content are added.
-
-Happy surviving, and we look forward to your feedback in the GitHub tracker or community forums. Now, gear up and go make history in the land time forgot!
-
+🐲 **Do you have what it takes to thrive in a world ruled by giants?** 🦖🔥  
