@@ -16,28 +16,34 @@ With these features, *Walking Among The Dinosaur* offers a truly unique survival
 
 ## Installation Instructions  
 
-You can install the modpack either manually (using the Forge launcher or a Minecraft launcher of your choice) or via the convenient Modrinth App. Before starting, ensure you have **Minecraft 1.18.2** installed and **Java 17** configured (Minecraft 1.18 requires Java 17). It’s also recommended to allocate **at least 6-8 GB of RAM** to Minecraft due to the large number of mods and the world generation complexity.
+You can install the modpack either manually (using a Minecraft launcher of your choice) or via the convenient CurseForge or Modrinth Launcher. Before starting, ensure you have Minecraft 1.18.2 installed and Java 17 configured (Minecraft 1.18 requires Java 17). It’s also recommended to allocate at least 8-10 GB of RAM to Minecraft due to the large number of mods and the world generation complexity.
 
-**Option 1: Manual Installation (Not Reccomended)**  
-1. **Install Forge 1.18.2:** Download the **Forge 1.18.2** installer from the official Forge site and run it. This will create a Forge profile in your Minecraft launcher. Make sure to launch Minecraft with the Forge 1.18.2 profile at least once to generate the needed folders.  
-2. **Download the Modpack:** Obtain the `WalkingAmongTheDinosaur-1.18.2.zip` modpack file (or `.mrpack` file) from the official source. If the pack is hosted on Modrinth or GitHub, download the release corresponding to this modpack.  
-3. **Add Mods to Minecraft:** If you have a `.mrpack` (Modrinth pack format), you can import it directly in many launchers (like Prism Launcher or MultiMC) by selecting “Import from ZIP/Modrinth”. This will automatically install all mods and config files. Alternatively, if you have a zip with a **manifest** or **mods folder**: 
-   - Open your Minecraft directory (`.minecraft` for the default launcher, or the instance folder for MultiMC/CurseForge launcher).  
-   - Copy the contents of the modpack’s `mods` folder into your Minecraft `mods` folder. Also copy any config, `kubejs`, or `resourcepacks` folders from the pack into the corresponding locations (these contain important tweaks and assets).  
-4. **Run Minecraft:** Start the Minecraft launcher with the Forge 1.18.2 profile. Select the **Walking Among The Dinosaur** modpack instance if you created one. Launch the game. The first load may be slow as it sets up config files.  
-5. **Confirm Installation:** Once at the main menu, you should see the modpack’s name or a custom title screen. You can also go to Mods and verify a long list of mods (dinosaurs, survival mods, etc.) are present. If everything looks good, you’re ready to play!
+### Option 1: Manual Installation (Forge)
 
-**Option 2: Modrinth App Installation**  
-1. **Install the Modrinth App:** If you don’t have it, download the Modrinth App from the [Modrinth website](https://modrinth.com) and install it. This app streamlines modpack installation.  
-2. **Search for the Modpack:** Open the Modrinth App and use the search bar to find "**Walking Among The Dinosaur**". You should see the modpack in the search results (make sure the version is Forge 1.18.2).  
-3. **Install with One Click:** Click the **Install** button on the modpack’s page. The app will automatically download all required mods, Forge, and set up an instance for you.  
-4. **Launch the Game:** In the Modrinth App, go to your **instances** or **packs**, find *Walking Among The Dinosaur*, and hit Play. This will launch Minecraft with everything configured.  
-5. **(Optional) Updates:** The Modrinth App will also notify you of modpack updates. You can update to the latest version of the pack easily through the app when a new release is available.
+Install Forge 1.18.2: Download the Forge 1.18.2 installer from the official Forge site and run it. This will create a Forge profile in your Minecraft launcher. Make sure to launch Minecraft with the Forge 1.18.2 profile at least once to generate the needed folders.
+Download the Modpack: Obtain the WalkingAmongTheDinosaur-1.18.2.zip modpack file (or .mrpack file) from the official source. 
+Add Mods to Minecraft: If you have a .mrpack (Modrinth pack format), you can import it directly in many launchers (like Prism Launcher or MultiMC) by selecting “Import from ZIP/Modrinth”. This will automatically install all mods and config files. Alternatively, if you have a zip with a manifest or mods folder:
+Open your Minecraft directory (.minecraft for the default launcher, or the instance folder for MultiMC/CurseForge launcher).
+Copy the contents of the modpack’s mods folder into your Minecraft mods folder. Also copy any config, kubejs, or resourcepacks folders from the pack into the corresponding locations (these contain important tweaks and assets).
+Run Minecraft: Start the Minecraft launcher with the Forge 1.18.2 profile. Select the Walking Among The Dinosaur modpack instance if you created one. Launch the game. The first load may be slow as it sets up config files.
+Confirm Installation: Once at the main menu, you should see the modpack’s name or a custom title screen. You can also go to Mods and verify a long list of mods (dinosaurs, survival mods, etc.) are present. If everything looks good, you’re ready to play!
 
-**Dependencies & Configuration:**  
-- No additional mods are required beyond the pack contents. However, **enable the bundled resource packs** if prompted on first load (some modpacks include custom resource packs for the best experience).  
-- **Optimize Settings:** Given the world generation mods, it’s recommended to pre-generate or use the included performance mods. The pack is already optimized with performance mods (like Oculus, etc.), but you can lower settings if needed. Ensure that if using shaders with Oculus.  
-- **Server Setup:** To set up a server, install Forge 1.18.2 on the server and copy the modpack’s mods & config folders to the server directory. **Remove any client-only mods** (such as voice chat or map UI mods) as needed. More detailed server instructions might be provided in a `SERVER_README.txt` if included.
+
+
+### Option 2: CurseForge/ Modrinth Launcher Installation
+
+Install the App: If you don’t have it, download the CurseForge or Modrinth App. This app streamlines modpack installation.
+Search for the Modpack: Open the App and use the search bar to find "Walking Among The Dinosaur". You should see the modpack in the search results (make sure the version is Forge 1.18.2).
+Install with One Click: Click the Install button on the modpack’s page. The app will automatically download all required mods, Forge, and set up an instance for you.
+Launch the Game: In the App, go to your instances or packs, find Walking Among The Dinosaur, and hit Play. This will launch Minecraft with everything configured.
+(Optional) Updates: The App will also notify you of modpack updates. You can update to the latest version of the pack easily through the app when a new release is available.
+
+### Dependencies & Configuration:
+
+No additional mods are required beyond the pack contents. However, enable the bundled resource packs if prompted on first load (some modpacks include custom resource packs for the best experience).
+Only use a shader that is compatible with the distant horizon mod. You can find them here!
+Optimize Settings: Given the world generation mods, it’s recommended to pre-generate or use the included performance mods. The pack is already optimized with performance mods (like Oculus, etc.), but you can lower settings if needed. Ensure that if using shaders with Oculus.
+Server Setup: To set up a server, install Forge 1.18.2 on the server and copy the modpack’s mods & config folders to the server directory. Remove any client-only mods (such as voice chat or map UI mods) as needed. More detailed server instructions might be provided in the wiki if included.
 
 After installation, you’re all set. Launch the game and dive into the prehistoric world!
 
